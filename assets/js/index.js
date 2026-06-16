@@ -275,27 +275,6 @@ async function initHome() {
       </div>
     </section>
 
-    ${renderGroupedList("课题组介绍", "ABOUT", `
-      <div class="about-grid">
-        <article class="card">
-          <div class="card-body">
-            <h3 class="card-title">研究定位</h3>
-            <p class="card-text">${textOrDash(site.about || site.description)}</p>
-          </div>
-        </article>
-        <article class="card">
-          <div class="card-body">
-            <h3 class="card-title">联系方式</h3>
-            <p class="card-text">
-              ${textOrDash(site.contact?.email)}<br />
-              ${textOrDash(site.contact?.phone)}<br />
-              ${textOrDash(site.contact?.address)}
-            </p>
-          </div>
-        </article>
-      </div>
-    `, "about")}
-
     ${renderGroupedList("研究方向介绍", "RESEARCH DIRECTIONS", `
       <div class="research-list">
         ${research.map((item) => researchItem(item)).join("")}
