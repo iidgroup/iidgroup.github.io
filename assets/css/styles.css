@@ -431,6 +431,19 @@ main {
   overflow: hidden;
 }
 
+.research-thumb-link {
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #d9e6f5, #c8d7eb);
+}
+
+.research-thumb {
+  transition: transform 0.35s ease;
+}
+
+.project-card:hover .research-thumb {
+  transform: scale(1.03);
+}
+
 .card,
 .news-item,
 .error-box,

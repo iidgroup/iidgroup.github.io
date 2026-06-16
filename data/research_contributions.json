@@ -15,9 +15,7 @@
       "知识图谱",
       "工业爆炸图"
     ],
-    "images": [
-      ""
-    ]
+    "image": "assets/images/contributions/contribution-multimodal-kg.svg"
   },
   {
     "id": "eeg-design-intention",
@@ -35,9 +33,7 @@
       "多任务学习",
       "认知设计"
     ],
-    "images": [
-      ""
-    ]
+    "image": "assets/images/contributions/contribution-eeg-intention.svg"
   },
   {
     "id": "DREAM",
@@ -55,9 +51,7 @@
       "场景图",
       "机器人操作"
     ],
-    "images": [
-      ""
-    ]
+    "image": "assets/images/contributions/dream.png"
   },
 
   {
@@ -76,8 +70,6 @@
       "场景图",
       "机器人操作"
     ],
-    "images": [
-      ""
-    ]
+    "image": "assets/images/contributions/dovsg.png"
   }
 ]

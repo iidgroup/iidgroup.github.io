@@ -7,6 +7,7 @@ import {
   createFooter,
   createHeader,
   formatDate,
+  getImageSrc,
   loadJSON,
   setPageTitle,
   sortByDateDesc,
@@ -78,8 +79,12 @@ function projectCard(project) {
 function researchContributionCard(item) {
   const detailUrl = item.detailUrl || "";
   const paperUrl = item.paperUrl || item.link || "";
+  const imageSrc = getImageSrc(item.image);
   return `
     <article class="card project-card">
+      <a class="card-image-link research-thumb-link" href="${detailUrl || paperUrl || "#"}"${detailUrl || paperUrl ? "" : ' aria-hidden="true" tabindex="-1"'}>
+        <img class="card-image research-thumb" src="${imageSrc}" alt="${item.title}" />
+      </a>
       <div class="card-body">
         <div class="card-head">
           <div>

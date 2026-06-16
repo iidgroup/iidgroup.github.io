@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="EEG intention thumbnail">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d3557" />
+      <stop offset="100%" stop-color="#457b9d" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="36" fill="url(#bg)" />
+  <circle cx="760" cy="120" r="80" fill="rgba(255,255,255,0.08)" />
+  <g fill="none" stroke="#f1faee" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 180c40-48 108-48 148 0" />
+    <path d="M174 262c18-46 64-76 110-76 47 0 92 30 110 76" />
+    <path d="M210 180v116" />
+    <path d="M358 180v116" />
+    <path d="M230 238h84" />
+    <path d="M420 150h150" />
+    <path d="M420 206h212" />
+    <path d="M420 262h176" />
+    <path d="M420 318h116" />
+  </g>
+  <g fill="#a8dadc">
+    <circle cx="210" cy="180" r="18" />
+    <circle cx="358" cy="180" r="18" />
+    <circle cx="258" cy="238" r="14" />
+    <circle cx="580" cy="150" r="14" />
+    <circle cx="632" cy="206" r="14" />
+    <circle cx="596" cy="262" r="14" />
+    <circle cx="536" cy="318" r="14" />
+  </g>
+  <rect x="76" y="380" width="338" height="16" rx="8" fill="rgba(255,255,255,0.24)" />
+  <rect x="76" y="412" width="224" height="14" rx="7" fill="rgba(255,255,255,0.16)" />
+  <text x="76" y="476" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">EEG Intention</text>
+  <text x="76" y="510" fill="#e0fbfc" font-family="Arial, Helvetica, sans-serif" font-size="18">Multitask recognition with cognitive signals</text>
+</svg>
