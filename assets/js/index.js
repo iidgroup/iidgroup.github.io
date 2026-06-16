@@ -7,9 +7,7 @@ import {
   createFooter,
   createHeader,
   formatDate,
-  getImageSrc,
   loadJSON,
-  setImageFallback,
   setPageTitle,
   sortByDateDesc,
   sortByYearDesc,
@@ -53,9 +51,6 @@ function projectCard(project) {
   const statusType = String(project.status || "").toLowerCase().includes("ongoing") ? "success" : "neutral";
   return `
     <article class="card project-card">
-      <a class="card-image-link project-image-link" href="${detailUrl}">
-        <img class="card-image" src="${getImageSrc(project.image)}" alt="${project.title}" loading="lazy" />
-      </a>
       <div class="card-body">
         <div class="card-head">
           <div>
@@ -74,6 +69,35 @@ function projectCard(project) {
         <div class="card-actions">
           ${buttonHTML(detailUrl, "查看详情", "btn btn-primary")}
           ${buttonHTML(project.link, "外部链接", "btn btn-secondary", "_blank")}
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function researchContributionCard(item) {
+  const detailUrl = item.detailUrl || "";
+  const paperUrl = item.paperUrl || item.link || "";
+  return `
+    <article class="card project-card">
+      <div class="card-body">
+        <div class="card-head">
+          <div>
+            <h3 class="card-title">${item.title}</h3>
+            <div class="card-subtitle">${textOrDash(item.paperTitle || item.paper)}</div>
+          </div>
+          ${item.year ? badge(String(item.year), "blue") : ""}
+        </div>
+        <p class="card-text">${textOrDash(item.summary)}</p>
+        <div class="meta-grid">
+          <div><span>亮点工作</span><strong>${textOrDash(item.highlight)}</strong></div>
+          <div><span>原型系统</span><strong>${textOrDash(item.prototype)}</strong></div>
+          <div><span>负责人</span><strong>${textOrDash(item.owner)}</strong></div>
+        </div>
+        ${chipList(item.tags || [])}
+        <div class="card-actions">
+          ${detailUrl ? buttonHTML(detailUrl, "查看详情", "btn btn-primary") : ""}
+          ${paperUrl ? buttonHTML(paperUrl, "论文链接", "btn btn-secondary", "_blank") : ""}
         </div>
       </div>
     </article>
@@ -224,11 +248,12 @@ function renderGroupedList(title, subtitle, content, anchor) {
 }
 
 async function initHome() {
-  const [site, members, research, projects, publications, patents, news, software] = await Promise.all([
+  const [site, members, research, projects, researchContributions, publications, patents, news, software] = await Promise.all([
     loadJSON("./data/site.json"),
     loadJSON("./data/members.json"),
     loadJSON("./data/research.json"),
     loadJSON("./data/projects.json"),
+    loadJSON("./data/research_contributions.json"),
     loadJSON("./data/publications.json"),
     loadJSON("./data/patents.json"),
     loadJSON("./data/news.json"),
@@ -241,6 +266,7 @@ async function initHome() {
 
   const stats = computeStats({ publications, projects, patents });
   const sortedProjects = sortByDateDesc(projects, "startDate");
+  const sortedResearchContributions = sortByYearDesc(researchContributions, "year");
   const sortedPublications = sortByYearDesc(publications, "year");
   const sortedPatents = sortByYearDesc(patents, "year");
   const sortedNews = sortByDateDesc(news, "date");
@@ -321,7 +347,15 @@ async function initHome() {
     `, "statistics")}
   `;
 
-  page.querySelectorAll("img.card-image").forEach(setImageFallback);
+  const researchContributionsSection = renderGroupedList("研究贡献", "RESEARCH CONTRIBUTIONS", `
+    <div class="card-grid project-grid">
+      ${sortedResearchContributions.map((item) => researchContributionCard(item)).join("")}
+    </div>
+  `, "research-contributions");
+  const publicationsSection = document.getElementById("publications");
+  if (publicationsSection) {
+    publicationsSection.insertAdjacentHTML("beforebegin", researchContributionsSection);
+  }
 
   const publicationToggle = document.getElementById("publication-toggle");
   const publicationMore = document.getElementById("publication-more");

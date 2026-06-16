@@ -1,0 +1,83 @@
+[
+  {
+    "id": "exploded-view-multimodal-kg",
+    "title": "工业爆炸图多模态知识图谱构建",
+    "paperTitle": "End-to-end multimodal knowledge graph construction for industrial exploded views via attention-guided expert chains",
+    "year": 2026,
+    "summary": "围绕工业爆炸图中的结构解析与知识组织问题，构建了端到端的多模态知识图谱方法，支持图文信息协同理解与工程知识抽取。",
+    "highlight": "注意力引导的专家链推理",
+    "prototype": "爆炸图知识图谱构建与检索原型",
+    "owner": "梁欣欣",
+    "paperUrl": "https://www.sciencedirect.com/science/article/pii/S0278612525002602",
+    "detailUrl": "contribution.html?id=exploded-view-multimodal-kg",
+    "tags": [
+      "多模态",
+      "知识图谱",
+      "工业爆炸图"
+    ],
+    "images": [
+      ""
+    ]
+  },
+  {
+    "id": "eeg-design-intention",
+    "title": "基于脑电的工程设计意图识别",
+    "paperTitle": "A multi-task engineering design intention recognition approach based on Vision Transformer and EEG data",
+    "year": 2025,
+    "summary": "结合视觉Transformer与脑电数据，探索工程设计意图识别的多任务建模方法，用于理解设计过程中的认知信号。",
+    "highlight": "视觉与EEG联合建模",
+    "prototype": "设计意图识别交互原型",
+    "owner": "李明睿",
+    "paperUrl": "https://www.sciencedirect.com/science/article/pii/S1474034625002460",
+    "detailUrl": "contribution.html?id=eeg-design-intention",
+    "tags": [
+      "EEG",
+      "多任务学习",
+      "认知设计"
+    ],
+    "images": [
+      ""
+    ]
+  },
+  {
+    "id": "DREAM",
+    "title": "动态鲁棒时空语义记忆与混合定位的移动操作",
+    "paperTitle": "DREAM: Dynamic Resilient Spatio-Semantic Memory with Hybrid Localization for Mobile Manipulation",
+    "year": 2025,
+    "summary": "针对移动操作中的动态环境变化，提出了动态鲁棒时空语义记忆与混合定位方法，实现了移动机器人在复杂场景下的高效操作。",
+    "highlight": "动态鲁棒时空语义记忆",
+    "prototype": "移动操作原型",
+    "owner": "鄢智杰",
+    "paperUrl": "https://arxiv.org/pdf/2606.00576",
+    "detailUrl": "https://bjhyzj.github.io/dream-web/",
+    "tags": [
+      "VLM",
+      "场景图",
+      "机器人操作"
+    ],
+    "images": [
+      ""
+    ]
+  },
+
+  {
+    "id": "dovsg",
+    "title": "DovSG:面向长期语言引导移动操作的动态开放词汇3D场景图",
+    "paperTitle": "Dynamic Open-Vocabulary 3D Scene Graphs for Long-term Language-Guided Mobile Manipulation",
+    "year": 2025,
+    "summary": "针对长期语言引导的移动操作任务，提出了动态开放词汇3D场景图（DovSG）方法，实现了机器人在复杂环境中对场景的理解与操作。",
+    "highlight": "动态开放词汇3D场景图",
+    "prototype": "长期语言引导移动操作原型",
+    "owner": "鄢智杰",
+    "paperUrl": "https://arxiv.org/abs/2410.11989",
+    "detailUrl": "https://bjhyzj.github.io/dovsg-web/",
+    "tags": [
+      "VLM",
+      "场景图",
+      "机器人操作"
+    ],
+    "images": [
+      ""
+    ]
+  }
+]

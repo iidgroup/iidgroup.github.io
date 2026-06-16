@@ -431,10 +431,6 @@ main {
   overflow: hidden;
 }
 
-.project-image-link {
-  aspect-ratio: 16 / 9;
-}
-
 .card,
 .news-item,
 .error-box,
