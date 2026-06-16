@@ -37,7 +37,7 @@
   },
   {
     "id": "DREAM",
-    "title": "动态鲁棒时空语义记忆与混合定位的移动操作",
+    "title": "DREAM：动态鲁棒时空语义记忆与混合定位的移动操作",
     "paperTitle": "DREAM: Dynamic Resilient Spatio-Semantic Memory with Hybrid Localization for Mobile Manipulation",
     "year": 2025,
     "summary": "针对移动操作中的动态环境变化，提出了动态鲁棒时空语义记忆与混合定位方法，实现了移动机器人在复杂场景下的高效操作。",
