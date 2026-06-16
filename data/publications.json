@@ -1,744 +1,744 @@
-﻿[
-    {
-        "id":  "EJP78HW6",
-        "title":  "DOGREAT3D: Multimodal 3D reconstruction of complex mechanical parts with diffusion models and geometric refinement strategies",
-        "authors":  [
-                        "Xinxin Liang",
-                        "Zuoxu Wang",
-                        "Jihong Liu",
-                        "Ang Liu",
-                        "Chun-Hsien Chen"
-                    ],
-        "journal":  "Journal of Manufacturing Systems",
-        "volume":  "86",
-        "issue":  "",
-        "pages":  "586-599",
-        "year":  2026,
-        "doi":  "10.1016/j.jmsy.2026.03.024",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0278612526000853",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "M8TX359H",
-        "title":  "End-to-end multimodal knowledge graph construction for industrial exploded views via attention-guided expert chains",
-        "authors":  [
-                        "Xinxin Liang",
-                        "Zuoxu Wang",
-                        "Mingrui Li",
-                        "Chun-Hsien Chen",
-                        "Jihong Liu"
-                    ],
-        "journal":  "Journal of Manufacturing Systems",
-        "volume":  "84",
-        "issue":  "",
-        "pages":  "85-99",
-        "year":  2026,
-        "doi":  "10.1016/j.jmsy.2025.10.013",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0278612525002602",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "HBWBHWUR",
-        "title":  "A multi-task engineering design intention recognition approach based on Vision Transformer and EEG data",
-        "authors":  [
-                        "Mingrui Li",
-                        "Zuoxu Wang",
-                        "Fan Li",
-                        "Jihong Liu"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "65",
-        "issue":  "",
-        "pages":  "103353",
-        "year":  2025,
-        "doi":  "10.1016/j.aei.2025.103353",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S1474034625002460",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "3QAMYIUR",
-        "title":  "A survey of large language model-augmented knowledge graphs for advanced complex product design",
-        "authors":  [
-                        "Xinxin Liang",
-                        "Zuoxu Wang",
-                        "Jihong Liu"
-                    ],
-        "journal":  "Journal of Manufacturing Systems",
-        "volume":  "80",
-        "issue":  "",
-        "pages":  "883-901",
-        "year":  2025,
-        "doi":  "10.1016/j.jmsy.2025.04.016",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0278612525001050",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "QXMUQZTH",
-        "title":  "An Automated SysML-Based Surrogate Model Construction Approach for Product CAD",
-        "authors":  [
-                        "Yanling Xie",
-                        "Jihong Liu",
-                        "Qiang Zhang",
-                        "Ruiwen Wang",
-                        "Zuoxu Wang"
-                    ],
-        "journal":  "Proceedings of the ASME 2025 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Volume 2A: 45th Computers and Information in Engineering Conference (CIE)",
-        "volume":  "2A",
-        "issue":  "",
-        "pages":  "V02AT02A032",
-        "year":  2025,
-        "doi":  "10.1115/DETC2025-168774",
-        "link":  "https://dx.doi.org/10.1115/DETC2025-168774",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "MXAN8T5T",
-        "title":  "Dynamic Open-Vocabulary 3D Scene Graphs for Long-Term Language-Guided Mobile Manipulation",
-        "authors":  [
-                        "Zhijie Yan",
-                        "Shufei Li",
-                        "Zuoxu Wang",
-                        "Lixiu Wu",
-                        "Han Wang",
-                        "Jun Zhu",
-                        "Lijiang Chen",
-                        "Jihong Liu"
-                    ],
-        "journal":  "IEEE Robotics and Automation Letters",
-        "volume":  "10",
-        "issue":  "5",
-        "pages":  "4252-4259",
-        "year":  2025,
-        "doi":  "10.1109/LRA.2025.3547643",
-        "link":  "https://doi.org/10.1109/LRA.2025.3547643",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "PZF7YBRC",
-        "title":  "IndVisSGG: VLM-based scene graph generation for industrial spatial intelligence",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Zhijie Yan",
-                        "Shufei Li",
-                        "Jihong Liu"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "65",
-        "issue":  "",
-        "pages":  "103107",
-        "year":  2025,
-        "doi":  "10.1016/j.aei.2024.103107",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S1474034624007584",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "NIUSYPUB",
-        "title":  "Intelligent design exploration method for complex engineered system architecture generation",
-        "authors":  [
-                        "Ru Wang",
-                        "ZhuQin Wei",
-                        "Haokun Li",
-                        "Zuoxu Wang",
-                        "Yu Huang",
-                        "Guoxin Wang"
-                    ],
-        "journal":  "Journal of Engineering Design",
-        "volume":  "36",
-        "issue":  "5-6",
-        "pages":  "797-835",
-        "year":  2025,
-        "doi":  "10.1080/09544828.2024.2362588",
-        "link":  "https://doi.org/10.1080/09544828.2024.2362588",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "SNFJTTRW",
-        "title":  "Intelligent design of reconfigurable flexible assembly fixture for aircraft panels based on smart composite jig model and knowledge graph",
-        "authors":  [
-                        "Shuang Meng",
-                        "Wei Fan",
-                        "Xin Wang",
-                        "Lianyu Zheng",
-                        "Zuoxu Wang"
-                    ],
-        "journal":  "Journal of Engineering Design",
-        "volume":  "36",
-        "issue":  "5-6",
-        "pages":  "672-706",
-        "year":  2025,
-        "doi":  "10.1080/09544828.2024.2345696",
-        "link":  "https://doi.org/10.1080/09544828.2024.2345696",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "KT7TLMRD",
-        "title":  "Leveraging deep reinforcement learning for design space exploration with multi-fidelity surrogate model",
-        "authors":  [
-                        "Haokun Li",
-                        "Ru Wang",
-                        "Zuoxu Wang",
-                        "Guannan Li",
-                        "Guoxin Wang",
-                        "Yan Yan"
-                    ],
-        "journal":  "Journal of Engineering Design",
-        "volume":  "36",
-        "issue":  "5-6",
-        "pages":  "880-919",
-        "year":  2025,
-        "doi":  "10.1080/09544828.2024.2366686",
-        "link":  "https://doi.org/10.1080/09544828.2024.2366686",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "W7QKCXA2",
-        "title":  "Promoting knowledge recommendation in innovative engineering design: a BERT-GAT-based patent representation learning approach",
-        "authors":  [
-                        "Mingrui Li",
-                        "Zuoxu Wang",
-                        "Zhijie Yan",
-                        "Xinxin Liang",
-                        "Jihong Liu"
-                    ],
-        "journal":  "Journal of Engineering Design",
-        "volume":  "36",
-        "issue":  "7-9",
-        "pages":  "1425-1450",
-        "year":  2025,
-        "doi":  "10.1080/09544828.2024.2339713",
-        "link":  "https://doi.org/10.1080/09544828.2024.2339713",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "QUZSWLI5",
-        "title":  "Rapid generation method of process routes based on multi-agent collaboration with LLMs",
-        "authors":  [
-                        "Yanling Xie",
-                        "Jihong Liu",
-                        "Ruiwen Wang",
-                        "Zuoxu Wang",
-                        "Kai Yu",
-                        "Ziming Song"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "68",
-        "issue":  "",
-        "pages":  "103733",
-        "year":  2025,
-        "doi":  "10.1016/j.aei.2025.103733",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S1474034625006263",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "YMW5WQMZ",
-        "title":  "Towards a self-cognitive complex product design system: A fine-grained multi-modal feature recognition and semantic understanding approach using large language models in mechanical engineering",
-        "authors":  [
-                        "Xinxin Liang",
-                        "Zuoxu Wang",
-                        "Jihong Liu"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "65",
-        "issue":  "",
-        "pages":  "103265",
-        "year":  2025,
-        "doi":  "10.1016/j.aei.2025.103265",
-        "link":  "https://doi.org/10.1016/j.aei.2025.103265",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "X5PAC42J",
-        "title":  "Towards cognitive intelligence-enabled product design: The evolution, state-of-the-art, and future of AI-enabled product design",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Xinxin Liang",
-                        "Mingrui Li",
-                        "Shufei Li",
-                        "Jihong Liu",
-                        "Lianyu Zheng"
-                    ],
-        "journal":  "Journal of Industrial Information Integration",
-        "volume":  "43",
-        "issue":  "",
-        "pages":  "100759",
-        "year":  2025,
-        "doi":  "10.1016/j.jii.2024.100759",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S2452414X24002024",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "MEGK72LL",
-        "title":  "VLM-MSGraph: Vision Language Model-enabled Multi-hierarchical Scene Graph for robotic assembly",
-        "authors":  [
-                        "Shufei Li",
-                        "Zhijie Yan",
-                        "Zuoxu Wang",
-                        "Yiping Gao"
-                    ],
-        "journal":  "Robotics and Computer-Integrated Manufacturing",
-        "volume":  "94",
-        "issue":  "",
-        "pages":  "102978",
-        "year":  2025,
-        "doi":  "10.1016/j.rcim.2025.102978",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0736584525000328",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "RV8XHVDG",
-        "title":  "A multi-hierarchical aggregation-based graph convolutional network for industrial knowledge graph embedding towards cognitive intelligent manufacturing",
-        "authors":  [
-                        "Bufan Liu",
-                        "Chun-Hsien Chen",
-                        "Zuoxu Wang"
-                    ],
-        "journal":  "Journal of Manufacturing Systems",
-        "volume":  "76",
-        "issue":  "",
-        "pages":  "320-332",
-        "year":  2024,
-        "doi":  "10.1016/j.jmsy.2024.08.012",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0278612524001766",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "UQAHKSLV",
-        "title":  "A survey of LLM-augmented knowledge graph construction and application in complex product design",
-        "authors":  [
-                        "Xinxin Liang",
-                        "Zuoxu Wang",
-                        "Mingrui Li",
-                        "Zhijie Yan"
-                    ],
-        "journal":  "Procedia CIRP",
-        "volume":  "128",
-        "issue":  "",
-        "pages":  "870-875",
-        "year":  2024,
-        "doi":  "10.1016/j.procir.2024.07.069",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S2212827124007911",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "T3AZ6NLZ",
-        "title":  "A hypergraph-based approach for context-aware smart product-service system configuration",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen",
-                        "Pai Zheng",
-                        "Xinyu Li",
-                        "Wenyan Song"
-                    ],
-        "journal":  "Computers \u0026 Industrial Engineering",
-        "volume":  "163",
-        "issue":  "",
-        "pages":  "107816",
-        "year":  2022,
-        "doi":  "10.1016/j.cie.2021.107816",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0360835221007208",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "F9IMSBNJ",
-        "title":  "Dynamic Scene Graph for Mutual-Cognition Generation in Proactive Human-Robot Collaboration",
-        "authors":  [
-                        "Shufei Li",
-                        "Pai Zheng",
-                        "Zuoxu Wang",
-                        "Junming Fan",
-                        "Lihui Wang"
-                    ],
-        "journal":  "Procedia CIRP",
-        "volume":  "107",
-        "issue":  "",
-        "pages":  "943-948",
-        "year":  2022,
-        "doi":  "10.1016/j.procir.2022.05.089",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S2212827122003730",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "9LBEPGQ7",
-        "title":  "Implications of data-driven product design: From information age towards intelligence age",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Pai Zheng",
-                        "Xinyu Li",
-                        "Chun-Hsien Chen"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "54",
-        "issue":  "",
-        "pages":  "101793",
-        "year":  2022,
-        "doi":  "10.1016/j.aei.2022.101793",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S1474034622002518",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "M4WD3TUB",
-        "title":  "The Evolution, Framework, and Future of Cognitive Intelligence-enabled Product Design",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Jihong Liu",
-                        "Lianyu Zheng"
-                    ],
-        "journal":  "Procedia CIRP",
-        "volume":  "109",
-        "issue":  "",
-        "pages":  "526-531",
-        "year":  2022,
-        "doi":  "10.1016/j.procir.2022.05.289",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S2212827122007387",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "4XSW4BBB",
-        "title":  "A context-aware concept evaluation approach based on user experiences for smart product-service systems design iteration",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen",
-                        "Xinyu Li",
-                        "Pai Zheng",
-                        "Li Pheng Khoo"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "50",
-        "issue":  "C",
-        "pages":  "",
-        "year":  2021,
-        "doi":  "10.1016/j.aei.2021.101394",
-        "link":  "https://doi.org/10.1016/j.aei.2021.101394",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "CPLD6QGW",
-        "title":  "A data-driven reversible framework for achieving Sustainable Smart product-service systems",
-        "authors":  [
-                        "Xinyu Li",
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen",
-                        "Pai Zheng"
-                    ],
-        "journal":  "Journal of Cleaner Production",
-        "volume":  "279",
-        "issue":  "",
-        "pages":  "123618",
-        "year":  2021,
-        "doi":  "10.1016/j.jclepro.2020.123618",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0959652620336635",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "2IJUMCPU",
-        "title":  "A Hypergraph-Based Knowledge Representation Model for Smart Product-Service System Development",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Xinyu Li",
-                        "Chun-Hsien Chen",
-                        "Pai Zheng"
-                    ],
-        "journal":  "ASME 2021 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
-        "volume":  "2",
-        "issue":  "",
-        "pages":  "",
-        "year":  2021,
-        "doi":  "10.1115/detc2021-66732",
-        "link":  "https://doi.org/10.1115/detc2021-66732",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "6EB6KD99",
-        "title":  "Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives",
-        "authors":  [
-                        "Xinyu Li",
-                        "Mengtao Lyu",
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen",
-                        "Pai Zheng"
-                    ],
-        "journal":  "Computers in Industry",
-        "volume":  "129",
-        "issue":  "",
-        "pages":  "103449",
-        "year":  2021,
-        "doi":  "10.1016/j.compind.2021.103449",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S0166361521000567",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "WA3BTWD8",
-        "title":  "Exploration of the digital innovation process in the smart product-service system",
-        "authors":  [
-                        "Haneen A. F. Saymeh",
-                        "Xiangying Zhang",
-                        "Tao Peng",
-                        "Renzhong Tang",
-                        "Zuoxu Wang",
-                        "Pai Zheng"
-                    ],
-        "journal":  "41st Computers and Information in Engineering Conference, CIE 2021, Held as Part of the ASME 2021 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, IDETC-CIE 2021, August 17, 2021 - August 19, 2021",
-        "volume":  "2",
-        "issue":  "",
-        "pages":  "Computers and Information in Engineering Division; Design Engineering Division",
-        "year":  2021,
-        "doi":  "10.1115/DETC2021-70848",
-        "link":  "http://dx.doi.org/10.1115/DETC2021-70848",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "2Y54CXUS",
-        "title":  "Smart Product-Service Systems",
-        "authors":  [
-                        "Pai Zheng",
-                        "Chun-Hsien Chen",
-                        "Zuoxu Wang"
-                    ],
-        "journal":  "Elsevier-Health Science",
-        "volume":  "",
-        "issue":  "",
-        "pages":  "",
-        "year":  2021,
-        "doi":  "",
-        "link":  "https://www.elsevier.com/books/smart-product-service-systems/zheng/978-0-323-85247-0",
-        "type":  "book"
-    },
-    {
-        "id":  "G2JJWGT7",
-        "title":  "A holistic relook at engineering design methodologies for smart product-service systems development",
-        "authors":  [
-                        "Jing-chen Cong",
-                        "Chun-Hsien Chen",
-                        "Pai Zheng",
-                        "Xinyu Li",
-                        "Zuoxu Wang"
-                    ],
-        "journal":  "Journal of Cleaner Production",
-        "volume":  "272",
-        "issue":  "",
-        "pages":  "122737",
-        "year":  2020,
-        "doi":  "10.1016/j.jclepro.2020.122737",
-        "link":  "http://www.sciencedirect.com/science/article/pii/S0959652620327840",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "FUA3CS2T",
-        "title":  "A Knowledge Graph-Aided Concept–Knowledge Approach for Evolutionary Smart Product–Service System Development",
-        "authors":  [
-                        "Xinyu Li",
-                        "Chun-Hsien Chen",
-                        "Pai Zheng",
-                        "Zuoxu Wang",
-                        "Zuhua Jiang",
-                        "Zhixing Jiang"
-                    ],
-        "journal":  "Journal of Mechanical Design",
-        "volume":  "142",
-        "issue":  "10",
-        "pages":  "101403",
-        "year":  2020,
-        "doi":  "10.1115/1.4046807",
-        "link":  "https://doi.org/10.1115/1.4046807",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "NDQIBQP4",
-        "title":  "Evaluating Smart PSS Solutions with Context-Awareness in Usage Phase",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Xinyu Li",
-                        "Chun-Hsien Chen",
-                        "Li Pheng Khoo"
-                    ],
-        "journal":  "27th ISPE International Conference on Transdisciplinary Engineering (TE)",
-        "volume":  "",
-        "issue":  "",
-        "pages":  "",
-        "year":  2020,
-        "doi":  "",
-        "link":  "",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "F6XF39BF",
-        "title":  "Smart product-service system configuration: a novel hypergraph model-based approach",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Xinyu Li",
-                        "Pai Zheng",
-                        "Chun-Hsien Chen",
-                        "Li Pheng Khoo"
-                    ],
-        "journal":  "2020 IEEE 16th International Conference on Automation Science and Engineering (CASE)",
-        "volume":  "",
-        "issue":  "",
-        "pages":  "323-328",
-        "year":  2020,
-        "doi":  "10.1109/CASE48305.2020.9216890",
-        "link":  "https://doi.org/10.1109/CASE48305.2020.9216890",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "6KR5VMVC",
-        "title":  "A novel data-driven graph-based requirement elicitation framework in the smart product-service system context",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen",
-                        "Pai Zheng",
-                        "Xinyu Li",
-                        "Li Pheng Khoo"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "42",
-        "issue":  "",
-        "pages":  "100983",
-        "year":  2019,
-        "doi":  "10.1016/j.aei.2019.100983",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S1474034619305567",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "PQCKQHSE",
-        "title":  "A survey of requirements management in smart product-service systems",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Pai Zheng",
-                        "Chun-Hsien Chen",
-                        "Li Pheng Khoo"
-                    ],
-        "journal":  "Transdisciplinary Engineering for Complex Socio-technical Systems",
-        "volume":  "",
-        "issue":  "",
-        "pages":  "613-622",
-        "year":  2019,
-        "doi":  "",
-        "link":  "",
-        "type":  "bookSection"
-    },
-    {
-        "id":  "HDTZCLZ4",
-        "title":  "A survey of smart product-service systems: Key aspects, challenges and future perspectives",
-        "authors":  [
-                        "Pai Zheng",
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen",
-                        "Li Pheng Khoo"
-                    ],
-        "journal":  "Advanced Engineering Informatics",
-        "volume":  "42",
-        "issue":  "",
-        "pages":  "100973",
-        "year":  2019,
-        "doi":  "10.1016/j.aei.2019.100973",
-        "link":  "http://www.sciencedirect.com/science/article/pii/S1474034619305464",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "M34GNIQI",
-        "title":  "Industrial smart product-service systems solution design via hybrid concerns",
-        "authors":  [
-                        "Pai Zheng",
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen"
-                    ],
-        "journal":  "Procedia CIRP",
-        "volume":  "83",
-        "issue":  "",
-        "pages":  "187-192",
-        "year":  2019,
-        "doi":  "10.1016/j.procir.2019.02.129",
-        "link":  "https://www.sciencedirect.com/science/article/pii/S2212827119302501",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "GJAENCJT",
-        "title":  "Smart Product-Service Systems Solution Design via Hybrid Crowd Sensing Approach",
-        "authors":  [
-                        "Zheng Pai",
-                        "Liu Yang",
-                        "Tao Fei",
-                        "Wang Zuoxu",
-                        "Chen Chun-Hsien"
-                    ],
-        "journal":  "IEEE Access",
-        "volume":  "7",
-        "issue":  "",
-        "pages":  "128463-128473",
-        "year":  2019,
-        "doi":  "10.1109/ACCESS.2019.2939828",
-        "link":  "https://doi.org/10.1109/ACCESS.2019.2939828",
-        "type":  "journalArticle"
-    },
-    {
-        "id":  "6N3E8EM6",
-        "title":  "Smart product-service systems: A novel transdisciplinary sociotechnical paradigm",
-        "authors":  [
-                        "Pai Zheng",
-                        "Zuoxu Wang",
-                        "Chun-Hsien Chen"
-                    ],
-        "journal":  "26th ISTE International Conference on Transdisciplinary Engineering,",
-        "volume":  "10",
-        "issue":  "",
-        "pages":  "234-241",
-        "year":  2019,
-        "doi":  "10.3233/ATDE190128",
-        "link":  "https://doi.org/10.3233/ATDE190128",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "NS25R57E",
-        "title":  "A graph-based requirement elicitation approach in the context of smart product-service systems",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Pai Zheng",
-                        "Chun-Hsien Chen",
-                        "Li Pheng Khoo"
-                    ],
-        "journal":  "48th International Conference on Computers and Industrial Engineering,",
-        "volume":  "",
-        "issue":  "",
-        "pages":  "",
-        "year":  2018,
-        "doi":  "",
-        "link":  "",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "AU9YMLXP",
-        "title":  "An integrated computer-aided design environment for customizing product/service systems",
-        "authors":  [
-                        "Ching-Hung Lee",
-                        "Chun-Hsien Chen",
-                        "Yu-Chi Lee",
-                        "ZuoXu Wang"
-                    ],
-        "journal":  "Proceedings of 25th ISPE International Conference on Trans Disciplinary Engineering (TE2018), Modena, Italy",
-        "volume":  "7",
-        "issue":  "",
-        "pages":  "469-477",
-        "year":  2018,
-        "doi":  "10.3233/978-1-61499-898-3-469",
-        "link":  "https://doi.org/10.3233/978-1-61499-898-3-469",
-        "type":  "conferencePaper"
-    },
-    {
-        "id":  "JPJL6TQ5",
-        "title":  "Knowledge representation and reasoning methods in the concept development of product design : a state-of-the-art review",
-        "authors":  [
-                        "Zuoxu Wang",
-                        "Pai Zheng",
-                        "Ching-Hung Lee",
-                        "Chun-Hsien Chen"
-                    ],
-        "journal":  "25th ISPE International Conference on Transdisciplinary Engineering (TE2018)",
-        "volume":  "",
-        "issue":  "",
-        "pages":  "",
-        "year":  2018,
-        "doi":  "10.3233/978-1-61499-898-3-478",
-        "link":  "https://doi.org/10.3233/978-1-61499-898-3-478",
-        "type":  "conferencePaper"
-    }
+[
+  {
+    "id": "EJP78HW6",
+    "title": "DOGREAT3D: Multimodal 3D reconstruction of complex mechanical parts with diffusion models and geometric refinement strategies",
+    "authors": [
+      "Xinxin Liang",
+      "Zuoxu Wang",
+      "Jihong Liu",
+      "Ang Liu",
+      "Chun-Hsien Chen"
+    ],
+    "journal": "Journal of Manufacturing Systems",
+    "volume": "86",
+    "issue": "",
+    "pages": "586-599",
+    "year": 2026,
+    "doi": "10.1016/j.jmsy.2026.03.024",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0278612526000853",
+    "type": "journalArticle"
+  },
+  {
+    "id": "M8TX359H",
+    "title": "End-to-end multimodal knowledge graph construction for industrial exploded views via attention-guided expert chains",
+    "authors": [
+      "Xinxin Liang",
+      "Zuoxu Wang",
+      "Mingrui Li",
+      "Chun-Hsien Chen",
+      "Jihong Liu"
+    ],
+    "journal": "Journal of Manufacturing Systems",
+    "volume": "84",
+    "issue": "",
+    "pages": "85-99",
+    "year": 2026,
+    "doi": "10.1016/j.jmsy.2025.10.013",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0278612525002602",
+    "type": "journalArticle"
+  },
+  {
+    "id": "HBWBHWUR",
+    "title": "A multi-task engineering design intention recognition approach based on Vision Transformer and EEG data",
+    "authors": [
+      "Mingrui Li",
+      "Zuoxu Wang",
+      "Fan Li",
+      "Jihong Liu"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "65",
+    "issue": "",
+    "pages": "103353",
+    "year": 2025,
+    "doi": "10.1016/j.aei.2025.103353",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034625002460",
+    "type": "journalArticle"
+  },
+  {
+    "id": "3QAMYIUR",
+    "title": "A survey of large language model-augmented knowledge graphs for advanced complex product design",
+    "authors": [
+      "Xinxin Liang",
+      "Zuoxu Wang",
+      "Jihong Liu"
+    ],
+    "journal": "Journal of Manufacturing Systems",
+    "volume": "80",
+    "issue": "",
+    "pages": "883-901",
+    "year": 2025,
+    "doi": "10.1016/j.jmsy.2025.04.016",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0278612525001050",
+    "type": "journalArticle"
+  },
+  {
+    "id": "QXMUQZTH",
+    "title": "An Automated SysML-Based Surrogate Model Construction Approach for Product CAD",
+    "authors": [
+      "Yanling Xie",
+      "Jihong Liu",
+      "Qiang Zhang",
+      "Ruiwen Wang",
+      "Zuoxu Wang"
+    ],
+    "journal": "Proceedings of the ASME 2025 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Volume 2A: 45th Computers and Information in Engineering Conference (CIE)",
+    "volume": "2A",
+    "issue": "",
+    "pages": "V02AT02A032",
+    "year": 2025,
+    "doi": "10.1115/DETC2025-168774",
+    "link": "https://dx.doi.org/10.1115/DETC2025-168774",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "MXAN8T5T",
+    "title": "Dynamic Open-Vocabulary 3D Scene Graphs for Long-Term Language-Guided Mobile Manipulation",
+    "authors": [
+      "Zhijie Yan",
+      "Shufei Li",
+      "Zuoxu Wang",
+      "Lixiu Wu",
+      "Han Wang",
+      "Jun Zhu",
+      "Lijiang Chen",
+      "Jihong Liu"
+    ],
+    "journal": "IEEE Robotics and Automation Letters",
+    "volume": "10",
+    "issue": "5",
+    "pages": "4252-4259",
+    "year": 2025,
+    "doi": "10.1109/LRA.2025.3547643",
+    "link": "https://doi.org/10.1109/LRA.2025.3547643",
+    "type": "journalArticle"
+  },
+  {
+    "id": "PZF7YBRC",
+    "title": "IndVisSGG: VLM-based scene graph generation for industrial spatial intelligence",
+    "authors": [
+      "Zuoxu Wang",
+      "Zhijie Yan",
+      "Shufei Li",
+      "Jihong Liu"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "65",
+    "issue": "",
+    "pages": "103107",
+    "year": 2025,
+    "doi": "10.1016/j.aei.2024.103107",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034624007584",
+    "type": "journalArticle"
+  },
+  {
+    "id": "NIUSYPUB",
+    "title": "Intelligent design exploration method for complex engineered system architecture generation",
+    "authors": [
+      "Ru Wang",
+      "ZhuQin Wei",
+      "Haokun Li",
+      "Zuoxu Wang",
+      "Yu Huang",
+      "Guoxin Wang"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "36",
+    "issue": "5-6",
+    "pages": "797-835",
+    "year": 2025,
+    "doi": "10.1080/09544828.2024.2362588",
+    "link": "https://doi.org/10.1080/09544828.2024.2362588",
+    "type": "journalArticle"
+  },
+  {
+    "id": "SNFJTTRW",
+    "title": "Intelligent design of reconfigurable flexible assembly fixture for aircraft panels based on smart composite jig model and knowledge graph",
+    "authors": [
+      "Shuang Meng",
+      "Wei Fan",
+      "Xin Wang",
+      "Lianyu Zheng",
+      "Zuoxu Wang"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "36",
+    "issue": "5-6",
+    "pages": "672-706",
+    "year": 2025,
+    "doi": "10.1080/09544828.2024.2345696",
+    "link": "https://doi.org/10.1080/09544828.2024.2345696",
+    "type": "journalArticle"
+  },
+  {
+    "id": "KT7TLMRD",
+    "title": "Leveraging deep reinforcement learning for design space exploration with multi-fidelity surrogate model",
+    "authors": [
+      "Haokun Li",
+      "Ru Wang",
+      "Zuoxu Wang",
+      "Guannan Li",
+      "Guoxin Wang",
+      "Yan Yan"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "36",
+    "issue": "5-6",
+    "pages": "880-919",
+    "year": 2025,
+    "doi": "10.1080/09544828.2024.2366686",
+    "link": "https://doi.org/10.1080/09544828.2024.2366686",
+    "type": "journalArticle"
+  },
+  {
+    "id": "W7QKCXA2",
+    "title": "Promoting knowledge recommendation in innovative engineering design: a BERT-GAT-based patent representation learning approach",
+    "authors": [
+      "Mingrui Li",
+      "Zuoxu Wang",
+      "Zhijie Yan",
+      "Xinxin Liang",
+      "Jihong Liu"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "36",
+    "issue": "7-9",
+    "pages": "1425-1450",
+    "year": 2025,
+    "doi": "10.1080/09544828.2024.2339713",
+    "link": "https://doi.org/10.1080/09544828.2024.2339713",
+    "type": "journalArticle"
+  },
+  {
+    "id": "QUZSWLI5",
+    "title": "Rapid generation method of process routes based on multi-agent collaboration with LLMs",
+    "authors": [
+      "Yanling Xie",
+      "Jihong Liu",
+      "Ruiwen Wang",
+      "Zuoxu Wang",
+      "Kai Yu",
+      "Ziming Song"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "68",
+    "issue": "",
+    "pages": "103733",
+    "year": 2025,
+    "doi": "10.1016/j.aei.2025.103733",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034625006263",
+    "type": "journalArticle"
+  },
+  {
+    "id": "YMW5WQMZ",
+    "title": "Towards a self-cognitive complex product design system: A fine-grained multi-modal feature recognition and semantic understanding approach using large language models in mechanical engineering",
+    "authors": [
+      "Xinxin Liang",
+      "Zuoxu Wang",
+      "Jihong Liu"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "65",
+    "issue": "",
+    "pages": "103265",
+    "year": 2025,
+    "doi": "10.1016/j.aei.2025.103265",
+    "link": "https://doi.org/10.1016/j.aei.2025.103265",
+    "type": "journalArticle"
+  },
+  {
+    "id": "X5PAC42J",
+    "title": "Towards cognitive intelligence-enabled product design: The evolution, state-of-the-art, and future of AI-enabled product design",
+    "authors": [
+      "Zuoxu Wang",
+      "Xinxin Liang",
+      "Mingrui Li",
+      "Shufei Li",
+      "Jihong Liu",
+      "Lianyu Zheng"
+    ],
+    "journal": "Journal of Industrial Information Integration",
+    "volume": "43",
+    "issue": "",
+    "pages": "100759",
+    "year": 2025,
+    "doi": "10.1016/j.jii.2024.100759",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2452414X24002024",
+    "type": "journalArticle"
+  },
+  {
+    "id": "MEGK72LL",
+    "title": "VLM-MSGraph: Vision Language Model-enabled Multi-hierarchical Scene Graph for robotic assembly",
+    "authors": [
+      "Shufei Li",
+      "Zhijie Yan",
+      "Zuoxu Wang",
+      "Yiping Gao"
+    ],
+    "journal": "Robotics and Computer-Integrated Manufacturing",
+    "volume": "94",
+    "issue": "",
+    "pages": "102978",
+    "year": 2025,
+    "doi": "10.1016/j.rcim.2025.102978",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0736584525000328",
+    "type": "journalArticle"
+  },
+  {
+    "id": "RV8XHVDG",
+    "title": "A multi-hierarchical aggregation-based graph convolutional network for industrial knowledge graph embedding towards cognitive intelligent manufacturing",
+    "authors": [
+      "Bufan Liu",
+      "Chun-Hsien Chen",
+      "Zuoxu Wang"
+    ],
+    "journal": "Journal of Manufacturing Systems",
+    "volume": "76",
+    "issue": "",
+    "pages": "320-332",
+    "year": 2024,
+    "doi": "10.1016/j.jmsy.2024.08.012",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0278612524001766",
+    "type": "journalArticle"
+  },
+  {
+    "id": "UQAHKSLV",
+    "title": "A survey of LLM-augmented knowledge graph construction and application in complex product design",
+    "authors": [
+      "Xinxin Liang",
+      "Zuoxu Wang",
+      "Mingrui Li",
+      "Zhijie Yan"
+    ],
+    "journal": "Procedia CIRP",
+    "volume": "128",
+    "issue": "",
+    "pages": "870-875",
+    "year": 2024,
+    "doi": "10.1016/j.procir.2024.07.069",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2212827124007911",
+    "type": "journalArticle"
+  },
+  {
+    "id": "T3AZ6NLZ",
+    "title": "A hypergraph-based approach for context-aware smart product-service system configuration",
+    "authors": [
+      "Zuoxu Wang",
+      "Chun-Hsien Chen",
+      "Pai Zheng",
+      "Xinyu Li",
+      "Wenyan Song"
+    ],
+    "journal": "Computers & Industrial Engineering",
+    "volume": "163",
+    "issue": "",
+    "pages": "107816",
+    "year": 2022,
+    "doi": "10.1016/j.cie.2021.107816",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0360835221007208",
+    "type": "journalArticle"
+  },
+  {
+    "id": "F9IMSBNJ",
+    "title": "Dynamic Scene Graph for Mutual-Cognition Generation in Proactive Human-Robot Collaboration",
+    "authors": [
+      "Shufei Li",
+      "Pai Zheng",
+      "Zuoxu Wang",
+      "Junming Fan",
+      "Lihui Wang"
+    ],
+    "journal": "Procedia CIRP",
+    "volume": "107",
+    "issue": "",
+    "pages": "943-948",
+    "year": 2022,
+    "doi": "10.1016/j.procir.2022.05.089",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2212827122003730",
+    "type": "journalArticle"
+  },
+  {
+    "id": "9LBEPGQ7",
+    "title": "Implications of data-driven product design: From information age towards intelligence age",
+    "authors": [
+      "Zuoxu Wang",
+      "Pai Zheng",
+      "Xinyu Li",
+      "Chun-Hsien Chen"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "54",
+    "issue": "",
+    "pages": "101793",
+    "year": 2022,
+    "doi": "10.1016/j.aei.2022.101793",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034622002518",
+    "type": "journalArticle"
+  },
+  {
+    "id": "M4WD3TUB",
+    "title": "The Evolution, Framework, and Future of Cognitive Intelligence-enabled Product Design",
+    "authors": [
+      "Zuoxu Wang",
+      "Jihong Liu",
+      "Lianyu Zheng"
+    ],
+    "journal": "Procedia CIRP",
+    "volume": "109",
+    "issue": "",
+    "pages": "526-531",
+    "year": 2022,
+    "doi": "10.1016/j.procir.2022.05.289",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2212827122007387",
+    "type": "journalArticle"
+  },
+  {
+    "id": "4XSW4BBB",
+    "title": "A context-aware concept evaluation approach based on user experiences for smart product-service systems design iteration",
+    "authors": [
+      "Zuoxu Wang",
+      "Chun-Hsien Chen",
+      "Xinyu Li",
+      "Pai Zheng",
+      "Li Pheng Khoo"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "50",
+    "issue": "C",
+    "pages": "",
+    "year": 2021,
+    "doi": "10.1016/j.aei.2021.101394",
+    "link": "https://doi.org/10.1016/j.aei.2021.101394",
+    "type": "journalArticle"
+  },
+  {
+    "id": "CPLD6QGW",
+    "title": "A data-driven reversible framework for achieving Sustainable Smart product-service systems",
+    "authors": [
+      "Xinyu Li",
+      "Zuoxu Wang",
+      "Chun-Hsien Chen",
+      "Pai Zheng"
+    ],
+    "journal": "Journal of Cleaner Production",
+    "volume": "279",
+    "issue": "",
+    "pages": "123618",
+    "year": 2021,
+    "doi": "10.1016/j.jclepro.2020.123618",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0959652620336635",
+    "type": "journalArticle"
+  },
+  {
+    "id": "2IJUMCPU",
+    "title": "A Hypergraph-Based Knowledge Representation Model for Smart Product-Service System Development",
+    "authors": [
+      "Zuoxu Wang",
+      "Xinyu Li",
+      "Chun-Hsien Chen",
+      "Pai Zheng"
+    ],
+    "journal": "ASME 2021 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+    "volume": "2",
+    "issue": "",
+    "pages": "",
+    "year": 2021,
+    "doi": "10.1115/detc2021-66732",
+    "link": "https://doi.org/10.1115/detc2021-66732",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "6EB6KD99",
+    "title": "Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives",
+    "authors": [
+      "Xinyu Li",
+      "Mengtao Lyu",
+      "Zuoxu Wang",
+      "Chun-Hsien Chen",
+      "Pai Zheng"
+    ],
+    "journal": "Computers in Industry",
+    "volume": "129",
+    "issue": "",
+    "pages": "103449",
+    "year": 2021,
+    "doi": "10.1016/j.compind.2021.103449",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0166361521000567",
+    "type": "journalArticle"
+  },
+  {
+    "id": "WA3BTWD8",
+    "title": "Exploration of the digital innovation process in the smart product-service system",
+    "authors": [
+      "Haneen A. F. Saymeh",
+      "Xiangying Zhang",
+      "Tao Peng",
+      "Renzhong Tang",
+      "Zuoxu Wang",
+      "Pai Zheng"
+    ],
+    "journal": "41st Computers and Information in Engineering Conference, CIE 2021, Held as Part of the ASME 2021 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, IDETC-CIE 2021, August 17, 2021 - August 19, 2021",
+    "volume": "2",
+    "issue": "",
+    "pages": "Computers and Information in Engineering Division; Design Engineering Division",
+    "year": 2021,
+    "doi": "10.1115/DETC2021-70848",
+    "link": "http://dx.doi.org/10.1115/DETC2021-70848",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "2Y54CXUS",
+    "title": "Smart Product-Service Systems",
+    "authors": [
+      "Pai Zheng",
+      "Chun-Hsien Chen",
+      "Zuoxu Wang"
+    ],
+    "journal": "Elsevier-Health Science",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": 2021,
+    "doi": "",
+    "link": "https://www.elsevier.com/books/smart-product-service-systems/zheng/978-0-323-85247-0",
+    "type": "book"
+  },
+  {
+    "id": "G2JJWGT7",
+    "title": "A holistic relook at engineering design methodologies for smart product-service systems development",
+    "authors": [
+      "Jing-chen Cong",
+      "Chun-Hsien Chen",
+      "Pai Zheng",
+      "Xinyu Li",
+      "Zuoxu Wang"
+    ],
+    "journal": "Journal of Cleaner Production",
+    "volume": "272",
+    "issue": "",
+    "pages": "122737",
+    "year": 2020,
+    "doi": "10.1016/j.jclepro.2020.122737",
+    "link": "http://www.sciencedirect.com/science/article/pii/S0959652620327840",
+    "type": "journalArticle"
+  },
+  {
+    "id": "FUA3CS2T",
+    "title": "A Knowledge Graph-Aided Concept–Knowledge Approach for Evolutionary Smart Product–Service System Development",
+    "authors": [
+      "Xinyu Li",
+      "Chun-Hsien Chen",
+      "Pai Zheng",
+      "Zuoxu Wang",
+      "Zuhua Jiang",
+      "Zhixing Jiang"
+    ],
+    "journal": "Journal of Mechanical Design",
+    "volume": "142",
+    "issue": "10",
+    "pages": "101403",
+    "year": 2020,
+    "doi": "10.1115/1.4046807",
+    "link": "https://doi.org/10.1115/1.4046807",
+    "type": "journalArticle"
+  },
+  {
+    "id": "NDQIBQP4",
+    "title": "Evaluating Smart PSS Solutions with Context-Awareness in Usage Phase",
+    "authors": [
+      "Zuoxu Wang",
+      "Xinyu Li",
+      "Chun-Hsien Chen",
+      "Li Pheng Khoo"
+    ],
+    "journal": "27th ISPE International Conference on Transdisciplinary Engineering (TE)",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": 2020,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "F6XF39BF",
+    "title": "Smart product-service system configuration: a novel hypergraph model-based approach",
+    "authors": [
+      "Zuoxu Wang",
+      "Xinyu Li",
+      "Pai Zheng",
+      "Chun-Hsien Chen",
+      "Li Pheng Khoo"
+    ],
+    "journal": "2020 IEEE 16th International Conference on Automation Science and Engineering (CASE)",
+    "volume": "",
+    "issue": "",
+    "pages": "323-328",
+    "year": 2020,
+    "doi": "10.1109/CASE48305.2020.9216890",
+    "link": "https://doi.org/10.1109/CASE48305.2020.9216890",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "6KR5VMVC",
+    "title": "A novel data-driven graph-based requirement elicitation framework in the smart product-service system context",
+    "authors": [
+      "Zuoxu Wang",
+      "Chun-Hsien Chen",
+      "Pai Zheng",
+      "Xinyu Li",
+      "Li Pheng Khoo"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "42",
+    "issue": "",
+    "pages": "100983",
+    "year": 2019,
+    "doi": "10.1016/j.aei.2019.100983",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034619305567",
+    "type": "journalArticle"
+  },
+  {
+    "id": "PQCKQHSE",
+    "title": "A survey of requirements management in smart product-service systems",
+    "authors": [
+      "Zuoxu Wang",
+      "Pai Zheng",
+      "Chun-Hsien Chen",
+      "Li Pheng Khoo"
+    ],
+    "journal": "Transdisciplinary Engineering for Complex Socio-technical Systems",
+    "volume": "",
+    "issue": "",
+    "pages": "613-622",
+    "year": 2019,
+    "doi": "",
+    "link": "",
+    "type": "bookSection"
+  },
+  {
+    "id": "HDTZCLZ4",
+    "title": "A survey of smart product-service systems: Key aspects, challenges and future perspectives",
+    "authors": [
+      "Pai Zheng",
+      "Zuoxu Wang",
+      "Chun-Hsien Chen",
+      "Li Pheng Khoo"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "42",
+    "issue": "",
+    "pages": "100973",
+    "year": 2019,
+    "doi": "10.1016/j.aei.2019.100973",
+    "link": "http://www.sciencedirect.com/science/article/pii/S1474034619305464",
+    "type": "journalArticle"
+  },
+  {
+    "id": "M34GNIQI",
+    "title": "Industrial smart product-service systems solution design via hybrid concerns",
+    "authors": [
+      "Pai Zheng",
+      "Zuoxu Wang",
+      "Chun-Hsien Chen"
+    ],
+    "journal": "Procedia CIRP",
+    "volume": "83",
+    "issue": "",
+    "pages": "187-192",
+    "year": 2019,
+    "doi": "10.1016/j.procir.2019.02.129",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2212827119302501",
+    "type": "journalArticle"
+  },
+  {
+    "id": "GJAENCJT",
+    "title": "Smart Product-Service Systems Solution Design via Hybrid Crowd Sensing Approach",
+    "authors": [
+      "Zheng Pai",
+      "Liu Yang",
+      "Tao Fei",
+      "Wang Zuoxu",
+      "Chen Chun-Hsien"
+    ],
+    "journal": "IEEE Access",
+    "volume": "7",
+    "issue": "",
+    "pages": "128463-128473",
+    "year": 2019,
+    "doi": "10.1109/ACCESS.2019.2939828",
+    "link": "https://doi.org/10.1109/ACCESS.2019.2939828",
+    "type": "journalArticle"
+  },
+  {
+    "id": "6N3E8EM6",
+    "title": "Smart product-service systems: A novel transdisciplinary sociotechnical paradigm",
+    "authors": [
+      "Pai Zheng",
+      "Zuoxu Wang",
+      "Chun-Hsien Chen"
+    ],
+    "journal": "26th ISTE International Conference on Transdisciplinary Engineering,",
+    "volume": "10",
+    "issue": "",
+    "pages": "234-241",
+    "year": 2019,
+    "doi": "10.3233/ATDE190128",
+    "link": "https://doi.org/10.3233/ATDE190128",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "NS25R57E",
+    "title": "A graph-based requirement elicitation approach in the context of smart product-service systems",
+    "authors": [
+      "Zuoxu Wang",
+      "Pai Zheng",
+      "Chun-Hsien Chen",
+      "Li Pheng Khoo"
+    ],
+    "journal": "48th International Conference on Computers and Industrial Engineering,",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": 2018,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "AU9YMLXP",
+    "title": "An integrated computer-aided design environment for customizing product/service systems",
+    "authors": [
+      "Ching-Hung Lee",
+      "Chun-Hsien Chen",
+      "Yu-Chi Lee",
+      "ZuoXu Wang"
+    ],
+    "journal": "Proceedings of 25th ISPE International Conference on Trans Disciplinary Engineering (TE2018), Modena, Italy",
+    "volume": "7",
+    "issue": "",
+    "pages": "469-477",
+    "year": 2018,
+    "doi": "10.3233/978-1-61499-898-3-469",
+    "link": "https://doi.org/10.3233/978-1-61499-898-3-469",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "JPJL6TQ5",
+    "title": "Knowledge representation and reasoning methods in the concept development of product design : a state-of-the-art review",
+    "authors": [
+      "Zuoxu Wang",
+      "Pai Zheng",
+      "Ching-Hung Lee",
+      "Chun-Hsien Chen"
+    ],
+    "journal": "25th ISPE International Conference on Transdisciplinary Engineering (TE2018)",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": 2018,
+    "doi": "10.3233/978-1-61499-898-3-478",
+    "link": "https://doi.org/10.3233/978-1-61499-898-3-478",
+    "type": "conferencePaper"
+  }
 ]

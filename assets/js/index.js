@@ -21,16 +21,12 @@ function memberCard(member, compact = false) {
   const url = member.profileUrl || `member.html?id=${encodeURIComponent(member.id)}`;
   return `
     <article class="card member-card ${compact ? "compact" : ""}">
-      <a class="card-image-link" href="${url}">
-        <img class="card-image" src="${getImageSrc(member.image)}" alt="${member.name}" loading="lazy" />
-      </a>
       <div class="card-body">
         <div class="card-head">
           <div>
             <h3 class="card-title"><a href="${url}">${member.name}</a></h3>
             <div class="card-subtitle">${textOrDash(member.title)}</div>
           </div>
-          ${badge(member.groupLabel || member.group || "成员", "blue")}
         </div>
         <p class="card-text">${textOrDash(member.bio)}</p>
         ${chipList(member.researchAreas || [])}

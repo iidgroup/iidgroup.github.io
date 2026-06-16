@@ -5,7 +5,6 @@ import {
   createEmptyState,
   createFooter,
   createHeader,
-  getImageSrc,
   loadJSON,
   setImageFallback,
   setPageTitle,
@@ -22,7 +21,6 @@ function memberDetail(member) {
   return `
     <section class="panel detail-grid">
       <div class="detail-visual">
-        <img class="detail-image" src="${getImageSrc(member.image)}" alt="${member.name}" />
         <div class="detail-badges">
           ${badge(member.groupLabel || member.group || "成员", "blue")}
           ${member.status ? badge(member.status, "neutral") : ""}
@@ -127,9 +125,6 @@ async function initMemberPage() {
           ? `<div class="card-grid member-grid">
               ${peers.map((peer) => `
                 <article class="card member-card compact">
-                  <a class="card-image-link" href="${peer.profileUrl || `member.html?id=${peer.id}`}">
-                    <img class="card-image" src="${getImageSrc(peer.image)}" alt="${peer.name}" />
-                  </a>
                   <div class="card-body">
                     <h3 class="card-title"><a href="${peer.profileUrl || `member.html?id=${peer.id}`}">${peer.name}</a></h3>
                     <div class="card-subtitle">${textOrDash(peer.title)}</div>
