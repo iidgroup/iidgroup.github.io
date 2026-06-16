@@ -1,67 +1,118 @@
 [
   {
-    "id": "pat-2026-01",
-    "title": "一种面向科研数据的智能知识组织方法及系统",
-    "number": "CN202610000001.0",
-    "status": "authorized",
-    "statusLabel": "授权",
+    "id": "pat-cn121392822a",
+    "title": "一种基于多任务图神经网络融合点云-属性邻接图信息的加工特征识别方法及系统",
+    "number": "CN121392822A",
+    "status": "pending",
+    "statusLabel": "受理中",
     "year": 2026,
-    "applicationYear": 2025,
-    "authorizationYear": 2026,
+    "applicationYear": 2026,
+    "authorizationYear": null,
     "inventors": [
-      "李明",
-      "张妍",
-      "陈宇"
+      "王佐旭",
+      "姚钧恺"
     ],
-    "summary": "将论文、项目和实验数据统一组织为可检索的知识单元，提高科研资料管理效率。",
+    "summary": "",
     "link": ""
   },
   {
-    "id": "pat-2025-01",
-    "title": "一种多模态医疗数据解释性分析装置",
-    "number": "CN202520000002.1",
+    "id": "pat-cn121210533a",
+    "title": "一种基于模型特征识别的工艺推送方法",
+    "number": "CN121210533A",
+    "status": "pending",
+    "statusLabel": "受理中",
+    "year": 2025,
+    "applicationYear": 2025,
+    "authorizationYear": null,
+    "inventors": [
+      "孙连胜",
+      "王佐旭",
+      "刘金山",
+      "谭益梅",
+      "王家修"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn119832157b",
+    "title": "一种基于多模态输入与智能优化的3D设计辅助方法",
+    "number": "CN119832157B",
     "status": "authorized",
     "statusLabel": "授权",
     "year": 2025,
-    "applicationYear": 2024,
+    "applicationYear": null,
     "authorizationYear": 2025,
     "inventors": [
-      "王晨",
-      "刘欣"
+      "王佐旭",
+      "梁欣欣"
     ],
-    "summary": "针对多模态医疗数据的推理过程进行可视化解释，提高临床使用可理解性。",
+    "summary": "",
     "link": ""
   },
   {
-    "id": "pat-2024-01",
-    "title": "一种课程学习行为分析方法及平台",
-    "number": "CN202410000003.8",
+    "id": "pat-cn120337556a",
+    "title": "一种面向产品CAD模型的代理模型自动构建方法",
+    "number": "CN120337556A",
+    "status": "pending",
+    "statusLabel": "受理中",
+    "year": 2025,
+    "applicationYear": 2025,
+    "authorizationYear": null,
+    "inventors": [
+      "刘继红",
+      "谢艳玲",
+      "王佐旭"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn118537705b",
+    "title": "一种使用多模态模型进行齿轮图像精准识别的方法及系统",
+    "number": "CN118537705B",
+    "status": "authorized",
+    "statusLabel": "授权",
+    "year": 2025,
+    "applicationYear": null,
+    "authorizationYear": 2025,
+    "inventors": [
+      "王佐旭",
+      "梁欣欣"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn118446290a",
+    "title": "一种多模态知识图谱自动化生成方法及系统",
+    "number": "CN118446290A",
     "status": "pending",
     "statusLabel": "受理中",
     "year": 2024,
     "applicationYear": 2024,
-    "authorizationYear": "",
+    "authorizationYear": null,
     "inventors": [
-      "王晨",
-      "赵睿"
+      "王佐旭",
+      "鄢智杰"
     ],
-    "summary": "对课程过程数据进行分析和反馈，为教学质量改进提供支持。",
+    "summary": "",
     "link": ""
   },
   {
-    "id": "pat-2023-01",
-    "title": "一种科学文献自动标引方法",
-    "number": "CN202310000004.5",
+    "id": "pat-cn116894087a",
+    "title": "一种融合Doc2vec和GAT的专利跨领域推荐方法及系统",
+    "number": "CN116894087A",
     "status": "pending",
     "statusLabel": "受理中",
     "year": 2023,
     "applicationYear": 2023,
-    "authorizationYear": "",
+    "authorizationYear": null,
     "inventors": [
-      "李明",
-      "张妍"
+      "王佐旭",
+      "李明睿"
     ],
-    "summary": "通过实体识别与主题分类实现对科学文献的自动标引。",
+    "summary": "",
     "link": ""
   }
 ]
