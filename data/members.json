@@ -1,0 +1,140 @@
+[
+  {
+    "id": "li-ming",
+    "name": "李明",
+    "title": "教授，博士生导师",
+    "group": "faculty",
+    "groupLabel": "导师 / 教师",
+    "aliases": [
+      "Li M.",
+      "M. Li"
+    ],
+    "researchFocus": "可解释机器学习、科学智能",
+    "researchAreas": [
+      "机器学习",
+      "知识图谱",
+      "科学智能"
+    ],
+    "email": "li.ming@example.edu.cn",
+    "website": "https://example.edu.cn/~liming",
+    "bio": "课题组负责人，长期从事智能数据分析与知识驱动决策研究，主持多项国家级和省部级项目。",
+    "image": "",
+    "profileUrl": "member.html?id=li-ming",
+    "order": 1
+  },
+  {
+    "id": "wang-chen",
+    "name": "王晨",
+    "title": "副教授，硕士生导师",
+    "group": "faculty",
+    "groupLabel": "导师 / 教师",
+    "aliases": [
+      "Wang C.",
+      "C. Wang"
+    ],
+    "researchFocus": "多模态融合、智能推荐",
+    "researchAreas": [
+      "多模态学习",
+      "推荐系统",
+      "数据挖掘"
+    ],
+    "email": "wang.chen@example.edu.cn",
+    "website": "",
+    "bio": "聚焦多源异构信息融合与应用型智能系统，承担本科与研究生课程教学工作。",
+    "image": "",
+    "profileUrl": "member.html?id=wang-chen",
+    "order": 2
+  },
+  {
+    "id": "zhang-yan",
+    "name": "张妍",
+    "title": "博士后",
+    "group": "postdoc",
+    "groupLabel": "博士后",
+    "aliases": [
+      "Zhang Y.",
+      "Y. Zhang"
+    ],
+    "researchFocus": "科学文献挖掘、自动化知识抽取",
+    "researchAreas": [
+      "信息抽取",
+      "自然语言处理",
+      "知识表示"
+    ],
+    "email": "zhang.yan@example.edu.cn",
+    "website": "",
+    "bio": "关注科研文本与实验数据的结构化表示，推动自动化实验知识发现。",
+    "image": "",
+    "profileUrl": "member.html?id=zhang-yan",
+    "order": 1
+  },
+  {
+    "id": "chen-yu",
+    "name": "陈宇",
+    "title": "博士研究生",
+    "group": "phd",
+    "groupLabel": "博士研究生",
+    "aliases": [
+      "Chen Y.",
+      "Y. Chen"
+    ],
+    "researchFocus": "图神经网络、结构化预测",
+    "researchAreas": [
+      "图学习",
+      "深度学习",
+      "结构化建模"
+    ],
+    "email": "chen.yu@example.edu.cn",
+    "website": "",
+    "bio": "研究图结构数据的表示学习及其在科研知识网络中的应用。",
+    "image": "",
+    "profileUrl": "member.html?id=chen-yu",
+    "order": 1
+  },
+  {
+    "id": "liu-xin",
+    "name": "刘欣",
+    "title": "硕士研究生",
+    "group": "master",
+    "groupLabel": "硕士研究生",
+    "aliases": [
+      "Liu X.",
+      "X. Liu"
+    ],
+    "researchFocus": "医疗数据分析、模型评估",
+    "researchAreas": [
+      "医疗人工智能",
+      "实验设计",
+      "模型评估"
+    ],
+    "email": "liu.xin@example.edu.cn",
+    "website": "",
+    "bio": "从事医疗场景的数据分析与模型性能评估工作。",
+    "image": "",
+    "profileUrl": "member.html?id=liu-xin",
+    "order": 1
+  },
+  {
+    "id": "zhao-rui",
+    "name": "赵睿",
+    "title": "本科生",
+    "group": "undergraduate",
+    "groupLabel": "本科生",
+    "aliases": [
+      "Zhao R.",
+      "R. Zhao"
+    ],
+    "researchFocus": "Web 开发、可视化",
+    "researchAreas": [
+      "前端开发",
+      "数据可视化",
+      "交互设计"
+    ],
+    "email": "zhao.rui@example.edu.cn",
+    "website": "",
+    "bio": "参与课题组主页、成果展示与数据可视化相关开发。",
+    "image": "",
+    "profileUrl": "member.html?id=zhao-rui",
+    "order": 1
+  }
+]

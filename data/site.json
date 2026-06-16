@@ -1,0 +1,71 @@
+{
+  "siteName": "智能信息与数据课题组",
+  "shortName": "IID Lab",
+  "tagline": "面向科学发现与智能决策的数据智能研究",
+  "university": "华东理工大学",
+  "department": "计算机科学与信息工程学院",
+  "description": "课题组聚焦机器学习、知识图谱、科学计算与多模态数据分析，围绕高质量数据建模、智能推理和行业应用开展研究，服务于科研发现、工程决策与知识创新。",
+  "about": "我们长期围绕数据驱动的智能计算开展研究，重视基础方法、开源工具与真实场景的结合，形成了覆盖论文、项目、专利和软著的完整成果链条。",
+  "highlight": "以可解释机器学习、科学数据智能分析和高质量知识组织为核心，推动科研成果从方法走向应用。",
+  "keywords": [
+    "机器学习",
+    "知识图谱",
+    "科学数据",
+    "多模态分析",
+    "智能决策"
+  ],
+  "researchKeywords": [
+    "可解释机器学习",
+    "科学知识挖掘",
+    "多模态融合",
+    "科研数据管理"
+  ],
+  "contact": {
+    "email": "iid-lab@example.edu.cn",
+    "phone": "+86-21-1234-5678",
+    "address": "上海市徐汇区梅陇路130号 华东理工大学 XX 楼 401 室"
+  },
+  "socialLinks": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/"
+    },
+    {
+      "label": "Google Scholar",
+      "href": "https://scholar.google.com/"
+    }
+  ],
+  "navigation": [
+    {
+      "label": "首页",
+      "href": "index.html",
+      "page": "home"
+    },
+    {
+      "label": "研究方向",
+      "href": "index.html#research",
+      "page": "home"
+    },
+    {
+      "label": "团队成员",
+      "href": "index.html#members",
+      "page": "home"
+    },
+    {
+      "label": "项目",
+      "href": "index.html#projects",
+      "page": "home"
+    },
+    {
+      "label": "论文",
+      "href": "index.html#publications",
+      "page": "home"
+    },
+    {
+      "label": "成果统计",
+      "href": "stats.html",
+      "page": "stats"
+    }
+  ],
+  "footerText": "本网站为纯静态课题组主页示例，所有内容由 data 目录下的 JSON 文件统一管理。"
+}

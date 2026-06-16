@@ -1,0 +1,26 @@
+[
+  {
+    "id": "soft-2026-01",
+    "title": "科研主页自动统计与展示系统",
+    "registrationNumber": "2026SR0000001",
+    "status": "registered",
+    "statusLabel": "已登记",
+    "year": 2026,
+    "category": "Web 应用",
+    "owner": "智能信息与数据课题组",
+    "summary": "用于统一管理课题组主页的数据源、统计指标和内容展示。",
+    "link": ""
+  },
+  {
+    "id": "soft-2025-01",
+    "title": "科学文献结构化标引工具",
+    "registrationNumber": "2025SR0000002",
+    "status": "registered",
+    "statusLabel": "已登记",
+    "year": 2025,
+    "category": "桌面工具",
+    "owner": "李明",
+    "summary": "支持科研文献的快速标引、分类和导出。",
+    "link": ""
+  }
+]

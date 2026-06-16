@@ -1,0 +1,109 @@
+[
+  {
+    "id": "project-ai-lab-portal",
+    "title": "课题组智能主页与成果管理平台",
+    "type": "校级重点项目",
+    "status": "ongoing",
+    "statusLabel": "在研",
+    "pi": "李明",
+    "funder": "华东理工大学信息化专项",
+    "amount": "20 万元",
+    "startDate": "2025-03-01",
+    "endDate": "2026-12-31",
+    "summary": "建设纯静态、可维护的课题组主页模板，统一管理团队成员、项目、论文和专利数据。",
+    "detail": "项目重点解决科研主页长期维护成本高、内容分散、统计口径不统一等问题，形成静态站点数据驱动展示方案。",
+    "team": [
+      "li-ming",
+      "wang-chen",
+      "zhao-rui"
+    ],
+    "tags": [
+      "GitHub Pages",
+      "静态站点",
+      "JSON 驱动"
+    ],
+    "image": "assets/images/projects/project-ai-lab-portal.svg",
+    "detailUrl": "project.html?id=project-ai-lab-portal",
+    "link": "https://github.com/"
+  },
+  {
+    "id": "project-scientific-kg",
+    "title": "科研知识图谱构建与检索系统",
+    "type": "国家自然科学基金面上项目",
+    "status": "ongoing",
+    "statusLabel": "在研",
+    "pi": "李明",
+    "funder": "国家自然科学基金委员会",
+    "amount": "60 万元",
+    "startDate": "2024-01-01",
+    "endDate": "2027-12-31",
+    "summary": "围绕科研文献、实验数据与项目数据构建知识图谱，支持智能检索与研究趋势分析。",
+    "detail": "项目研究知识融合、实体消歧、主题演化与跨模态检索等关键技术，并形成原型系统。",
+    "team": [
+      "li-ming",
+      "zhang-yan",
+      "chen-yu"
+    ],
+    "tags": [
+      "知识图谱",
+      "检索系统",
+      "科学智能"
+    ],
+    "image": "assets/images/projects/project-scientific-kg.svg",
+    "detailUrl": "project.html?id=project-scientific-kg",
+    "link": ""
+  },
+  {
+    "id": "project-med-ai",
+    "title": "医疗场景可信智能诊断研究",
+    "type": "省部级项目",
+    "status": "completed",
+    "statusLabel": "已结题",
+    "pi": "王晨",
+    "funder": "上海市科委",
+    "amount": "35 万元",
+    "startDate": "2022-06-01",
+    "endDate": "2024-05-31",
+    "summary": "研究医疗多模态数据的鲁棒建模与模型解释方法，提升辅助诊断系统可靠性。",
+    "detail": "项目输出了一套面向医疗结构化与非结构化数据的解释性建模流程，并已形成多篇论文。",
+    "team": [
+      "wang-chen",
+      "liu-xin"
+    ],
+    "tags": [
+      "医疗 AI",
+      "可解释性",
+      "多模态"
+    ],
+    "image": "assets/images/projects/project-med-ai.svg",
+    "detailUrl": "project.html?id=project-med-ai",
+    "link": ""
+  },
+  {
+    "id": "project-edu-analytics",
+    "title": "教育数据分析与课程智能评估",
+    "type": "横向合作项目",
+    "status": "completed",
+    "statusLabel": "已结题",
+    "pi": "王晨",
+    "funder": "合作企业",
+    "amount": "15 万元",
+    "startDate": "2021-09-01",
+    "endDate": "2023-06-30",
+    "summary": "面向课程过程性数据开展学习行为分析与教学质量评估，为教学改革提供依据。",
+    "detail": "项目开发了课程数据分析原型，支持学习轨迹分析、知识点掌握评估和教学反馈生成。",
+    "team": [
+      "wang-chen",
+      "chen-yu",
+      "zhao-rui"
+    ],
+    "tags": [
+      "教育数据",
+      "学习分析",
+      "教学评估"
+    ],
+    "image": "assets/images/projects/project-edu-analytics.svg",
+    "detailUrl": "project.html?id=project-edu-analytics",
+    "link": ""
+  }
+]

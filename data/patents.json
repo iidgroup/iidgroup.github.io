@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pat-2026-01",
+    "title": "一种面向科研数据的智能知识组织方法及系统",
+    "number": "CN202610000001.0",
+    "status": "authorized",
+    "statusLabel": "授权",
+    "year": 2026,
+    "applicationYear": 2025,
+    "authorizationYear": 2026,
+    "inventors": [
+      "李明",
+      "张妍",
+      "陈宇"
+    ],
+    "summary": "将论文、项目和实验数据统一组织为可检索的知识单元，提高科研资料管理效率。",
+    "link": ""
+  },
+  {
+    "id": "pat-2025-01",
+    "title": "一种多模态医疗数据解释性分析装置",
+    "number": "CN202520000002.1",
+    "status": "authorized",
+    "statusLabel": "授权",
+    "year": 2025,
+    "applicationYear": 2024,
+    "authorizationYear": 2025,
+    "inventors": [
+      "王晨",
+      "刘欣"
+    ],
+    "summary": "针对多模态医疗数据的推理过程进行可视化解释，提高临床使用可理解性。",
+    "link": ""
+  },
+  {
+    "id": "pat-2024-01",
+    "title": "一种课程学习行为分析方法及平台",
+    "number": "CN202410000003.8",
+    "status": "pending",
+    "statusLabel": "受理中",
+    "year": 2024,
+    "applicationYear": 2024,
+    "authorizationYear": "",
+    "inventors": [
+      "王晨",
+      "赵睿"
+    ],
+    "summary": "对课程过程数据进行分析和反馈，为教学质量改进提供支持。",
+    "link": ""
+  },
+  {
+    "id": "pat-2023-01",
+    "title": "一种科学文献自动标引方法",
+    "number": "CN202310000004.5",
+    "status": "pending",
+    "statusLabel": "受理中",
+    "year": 2023,
+    "applicationYear": 2023,
+    "authorizationYear": "",
+    "inventors": [
+      "李明",
+      "张妍"
+    ],
+    "summary": "通过实体识别与主题分类实现对科学文献的自动标引。",
+    "link": ""
+  }
+]

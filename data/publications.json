@@ -1,0 +1,96 @@
+[
+  {
+    "id": "pub-2026-01",
+    "title": "Interpretable Multi-Modal Learning for Scientific Discovery",
+    "authors": [
+      "Li M.",
+      "Wang C.",
+      "Zhang Y."
+    ],
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "volume": "38",
+    "issue": "1",
+    "pages": "12-25",
+    "year": 2026,
+    "doi": "10.1109/TKDE.2026.00001",
+    "link": "https://doi.org/10.1109/TKDE.2026.00001"
+  },
+  {
+    "id": "pub-2025-01",
+    "title": "Knowledge Graph Enhanced Literature Mining for Research Trend Analysis",
+    "authors": [
+      "Li M.",
+      "Zhang Y.",
+      "Chen Y."
+    ],
+    "journal": "Information Sciences",
+    "volume": "702",
+    "issue": "",
+    "pages": "120-136",
+    "year": 2025,
+    "doi": "10.1016/j.ins.2025.120136",
+    "link": "https://doi.org/10.1016/j.ins.2025.120136"
+  },
+  {
+    "id": "pub-2024-01",
+    "title": "A Reliable Framework for Multi-Modal Medical Data Fusion",
+    "authors": [
+      "Wang C.",
+      "Liu X."
+    ],
+    "journal": "Pattern Recognition",
+    "volume": "154",
+    "issue": "",
+    "pages": "109-124",
+    "year": 2024,
+    "doi": "10.1016/j.patcog.2024.109124",
+    "link": ""
+  },
+  {
+    "id": "pub-2023-01",
+    "title": "Explainable Graph Neural Networks for Scientific Knowledge Mining",
+    "authors": [
+      "Li M.",
+      "Chen Y.",
+      "Zhao R."
+    ],
+    "journal": "Expert Systems with Applications",
+    "volume": "233",
+    "issue": "",
+    "pages": "120987",
+    "year": 2023,
+    "doi": "10.1016/j.eswa.2023.120987",
+    "link": "https://doi.org/10.1016/j.eswa.2023.120987"
+  },
+  {
+    "id": "pub-2022-01",
+    "title": "A Survey of Scientific Document Mining and Analytics",
+    "authors": [
+      "Li M.",
+      "Wang C."
+    ],
+    "journal": "Journal of Data and Information Science",
+    "volume": "7",
+    "issue": "2",
+    "pages": "1-18",
+    "year": 2022,
+    "doi": "",
+    "link": ""
+  },
+  {
+    "id": "pub-2021-01",
+    "title": "Educational Data Analytics for Course Improvement",
+    "authors": [
+      "Wang C.",
+      "Liu X.",
+      "Zhao R."
+    ],
+    "journal": "Computers & Education",
+    "volume": "168",
+    "issue": "",
+    "pages": "104-119",
+    "year": 2021,
+    "doi": "10.1016/j.compedu.2021.104119",
+    "link": "https://doi.org/10.1016/j.compedu.2021.104119"
+  }
+]
