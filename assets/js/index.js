@@ -81,7 +81,7 @@ function researchContributionCard(item) {
   const paperUrl = item.paperUrl || item.link || "";
   const imageSrc = getImageSrc(item.image);
   return `
-    <article class="card project-card">
+    <article class="card project-card research-contribution-card">
       <a class="card-image-link research-thumb-link" href="${detailUrl || paperUrl || "#"}"${detailUrl || paperUrl ? "" : ' aria-hidden="true" tabindex="-1"'}>
         <img class="card-image research-thumb" src="${imageSrc}" alt="${item.title}" />
       </a>

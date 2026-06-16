@@ -1,4 +1,24 @@
 [
+
+{
+    "id": "DOGREAT3D",
+    "title": "DOGREAT3D: Multimodal 3D reconstruction of complex mechanical parts with diffusion models and geometric refinement strategies",
+    "paperTitle": "DOGREAT3D: Multimodal 3D reconstruction of complex mechanical parts with diffusion models and geometric refinement strategies",
+    "year": 2026,
+    "summary": "针对复杂机械零件的3D重建问题，提出了基于扩散模型和几何优化策略的多模态重建方法，实现了高精度的机械零件三维重建。",
+    "highlight": "",
+    "prototype": "",
+    "owner": "梁欣欣",
+    "paperUrl": "https://www.sciencedirect.com/science/article/pii/S0278612526000853",
+    "detailUrl": "contribution.html?id=exploded-view-multimodal-kg",
+    "tags": [
+      "多模态",
+      "扩散模型",
+      "几何优化"
+    ],
+    "image": "assets/images/contributions/dogreat3d.png"
+  },
+
   {
     "id": "exploded-view-multimodal-kg",
     "title": "工业爆炸图多模态知识图谱构建",
@@ -17,24 +37,8 @@
     ],
     "image": "assets/images/contributions/contribution-multimodal-kg.svg"
   },
-  {
-    "id": "eeg-design-intention",
-    "title": "基于脑电的工程设计意图识别",
-    "paperTitle": "A multi-task engineering design intention recognition approach based on Vision Transformer and EEG data",
-    "year": 2025,
-    "summary": "结合视觉Transformer与脑电数据，探索工程设计意图识别的多任务建模方法，用于理解设计过程中的认知信号。",
-    "highlight": "视觉与EEG联合建模",
-    "prototype": "设计意图识别交互原型",
-    "owner": "李明睿",
-    "paperUrl": "https://www.sciencedirect.com/science/article/pii/S1474034625002460",
-    "detailUrl": "contribution.html?id=eeg-design-intention",
-    "tags": [
-      "EEG",
-      "多任务学习",
-      "认知设计"
-    ],
-    "image": "assets/images/contributions/eeg.png"
-  },
+  
+  
   {
     "id": "DREAM",
     "title": "DREAM：动态鲁棒时空语义记忆与混合定位的移动操作",
@@ -71,5 +75,27 @@
       "机器人操作"
     ],
     "image": "assets/images/contributions/dovsg.png"
+  },
+  
+  {
+    "id": "eeg-design-intention",
+    "title": "基于脑电的工程设计意图识别",
+    "paperTitle": "A multi-task engineering design intention recognition approach based on Vision Transformer and EEG data",
+    "year": 2025,
+    "summary": "结合视觉Transformer与脑电数据，探索工程设计意图识别的多任务建模方法，用于理解设计过程中的认知信号。",
+    "highlight": "视觉与EEG联合建模",
+    "prototype": "设计意图识别交互原型",
+    "owner": "李明睿",
+    "paperUrl": "https://www.sciencedirect.com/science/article/pii/S1474034625002460",
+    "detailUrl": "contribution.html?id=eeg-design-intention",
+    "tags": [
+      "EEG",
+      "多任务学习",
+      "认知设计"
+    ],
+    "image": "assets/images/contributions/eeg.png"
   }
+
+
+
 ]

@@ -102,7 +102,6 @@ img {
 
 .brand-subtitle,
 .topbar-meta,
-.card-subtitle,
 .section-kicker,
 .hero-side-title,
 .eyebrow,
@@ -442,6 +441,10 @@ main {
 
 .project-card:hover .research-thumb {
   transform: scale(1.03);
+}
+
+.research-contribution-card .card-subtitle {
+  color: var(--text);
 }
 
 .card,
