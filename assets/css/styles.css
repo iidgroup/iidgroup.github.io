@@ -112,6 +112,11 @@ img {
   color: #fff;
 }
 
+.bar-chart .bar-year,
+.bar-chart .bar-count {
+  color: var(--text);
+}
+
 .publication-meta {
   color: var(--muted);
 }
@@ -369,6 +374,29 @@ main {
 
 .research-grid {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.research-list {
+  display: grid;
+  gap: 14px;
+}
+
+.research-item {
+  padding: 18px 20px;
+  border: 1px solid rgba(16, 32, 51, 0.08);
+  border-radius: 18px;
+  background: rgba(16, 32, 51, 0.02);
+}
+
+.research-title {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.research-summary {
+  margin: 10px 0 0;
+  line-height: 1.75;
+  color: var(--muted);
 }
 
 .project-grid {

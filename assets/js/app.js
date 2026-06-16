@@ -145,12 +145,7 @@ export function createHeader(site, activePage = "home") {
         <div class="brand-mark">${escapeHTML((site.shortName || site.siteName || "L").slice(0, 1))}</div>
         <div>
           <div class="brand-name">${escapeHTML(site.siteName || "")}</div>
-          <div class="brand-subtitle">${escapeHTML(site.tagline || "")}</div>
         </div>
-      </div>
-      <div class="topbar-meta">
-        <span>${escapeHTML(site.university || "")}</span>
-        <span>${escapeHTML(site.department || "")}</span>
       </div>
     </div>
     <nav class="nav-shell" aria-label="主导航">

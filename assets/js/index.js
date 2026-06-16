@@ -43,14 +43,11 @@ function memberCard(member, compact = false) {
   `;
 }
 
-function researchCard(item) {
+function researchItem(item) {
   return `
-    <article class="card info-card">
-      <div class="card-body">
-        <h3 class="card-title">${item.title}</h3>
-        <p class="card-text">${textOrDash(item.summary)}</p>
-        ${chipList(item.keywords || [])}
-      </div>
+    <article class="research-item">
+      <h3 class="research-title">${item.title}</h3>
+      <p class="research-summary">${textOrDash(item.summary)}</p>
     </article>
   `;
 }
@@ -282,8 +279,8 @@ async function initHome() {
     `, "about")}
 
     ${renderGroupedList("研究方向介绍", "RESEARCH DIRECTIONS", `
-      <div class="card-grid research-grid">
-        ${research.map((item) => researchCard(item)).join("")}
+      <div class="research-list">
+        ${research.map((item) => researchItem(item)).join("")}
       </div>
     `, "research")}
 
