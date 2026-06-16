@@ -22,24 +22,24 @@
     "order": 1
   },
   {
-    "id": "wang-chen",
-    "name": "王晨",
-    "title": "副教授，硕士生导师",
-    "group": "faculty",
-    "groupLabel": "导师 / 教师",
+    "id": "liangxinxin",
+    "name": "梁欣欣",
+    "title": "博士生",
+    "group": "phd",
+    "groupLabel": "博士研究生",
     "aliases": [
-      "Wang C.",
-      "C. Wang"
+      "Liang X.",
+      "X. Liang"
     ],
-    "researchFocus": "多模态融合、智能推荐",
+    "researchFocus": "多模态融合、三维CAD生成",
     "researchAreas": [
       "多模态学习",
       "推荐系统",
       "数据挖掘"
     ],
-    "email": "wang.chen@example.edu.cn",
+    "email": "liangxinxin1999@buaa.edu.cn",
     "website": "",
-    "bio": "聚焦多源异构信息融合与应用型智能系统，承担本科与研究生课程教学工作。",
+    "bio": "/。",
     "image": "",
     "profileUrl": "member.html?id=wang-chen",
     "order": 2
