@@ -243,6 +243,21 @@ main {
   margin-top: 18px;
 }
 
+.publication-list {
+  display: grid;
+  gap: 14px;
+}
+
+.publication-toggle-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.publication-toggle {
+  min-width: 140px;
+}
+
 .contact-pills {
   display: flex;
   flex-wrap: wrap;

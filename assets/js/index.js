@@ -103,6 +103,28 @@ function publicationCard(pub) {
   `;
 }
 
+function renderPublicationsSection(publications) {
+  const visibleCount = 5;
+  const visiblePublications = publications.slice(0, visibleCount);
+  const hiddenPublications = publications.slice(visibleCount);
+
+  return `
+    <div class="publication-list">
+      ${visiblePublications.map((item) => publicationCard(item)).join("")}
+      <div class="publication-more" id="publication-more" hidden>
+        ${hiddenPublications.map((item) => publicationCard(item)).join("")}
+      </div>
+    </div>
+    ${hiddenPublications.length ? `
+      <div class="publication-toggle-wrap">
+        <button class="btn btn-secondary publication-toggle" id="publication-toggle" type="button" aria-expanded="false" aria-controls="publication-more">
+          显示更多
+        </button>
+      </div>
+    ` : ""}
+  `;
+}
+
 function patentCard(patent) {
   return `
     <article class="card patent-card">
@@ -295,9 +317,7 @@ async function initHome() {
     `, "projects")}
 
     ${renderGroupedList("论文成果", "PUBLICATIONS", `
-      <div class="card-stack">
-        ${sortedPublications.map((item) => publicationCard(item)).join("")}
-      </div>
+      ${renderPublicationsSection(sortedPublications)}
     `, "publications")}
 
     ${renderGroupedList("专利", "PATENTS", `
@@ -327,6 +347,17 @@ async function initHome() {
   `;
 
   page.querySelectorAll("img.card-image").forEach(setImageFallback);
+
+  const publicationToggle = document.getElementById("publication-toggle");
+  const publicationMore = document.getElementById("publication-more");
+  if (publicationToggle && publicationMore) {
+    publicationToggle.addEventListener("click", () => {
+      const expanded = publicationToggle.getAttribute("aria-expanded") === "true";
+      publicationToggle.setAttribute("aria-expanded", String(!expanded));
+      publicationToggle.textContent = expanded ? "显示更多" : "收起";
+      publicationMore.hidden = expanded;
+    });
+  }
 }
 
 function handleError(error) {

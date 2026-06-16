@@ -1,25 +1,24 @@
 [
   {
-    "id": "li-ming",
-    "name": "李明",
-    "title": "教授，博士生导师",
+    "id": "wangzuoxu",
+    "name": "王佐旭",
+    "title": "副教授，博士生导师",
     "group": "faculty",
     "groupLabel": "导师 / 教师",
     "aliases": [
-      "Li M.",
-      "M. Li"
+      "Wang Z.",
+      "Z. Wang"
     ],
     "researchFocus": "可解释机器学习、科学智能",
     "researchAreas": [
-      "机器学习",
-      "知识图谱",
-      "科学智能"
+      "数字化产品设计与制造",
+      "AI驱动的设计方法与工具"
     ],
-    "email": "li.ming@example.edu.cn",
-    "website": "https://example.edu.cn/~liming",
-    "bio": "课题组负责人，长期从事智能数据分析与知识驱动决策研究，主持多项国家级和省部级项目。",
+    "email": "zuoxu_wang@buaa.edu.cn",
+    "website": "https://wangzuoxu.github.io/",
+    "bio": "课题组负责人。",
     "image": "",
-    "profileUrl": "member.html?id=li-ming",
+    "profileUrl": "member.html?id=wangzuoxu",
     "order": 1
   },
   {
