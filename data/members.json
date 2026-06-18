@@ -9,7 +9,7 @@
       "Wang Z.",
       "Z. Wang"
     ],
-    "researchFocus": "可解释机器学习、科学智能",
+    "researchFocus": "数字化产品设计与制造，AI驱动的设计方法与工具",
     "researchAreas": [
       "数字化产品设计与制造",
       "AI驱动的设计方法与工具"
@@ -54,9 +54,8 @@
       "X. He"
     ],
     "researchAreas": [
-      "图学习",
-      "深度学习",
-      "结构化建模"
+      "大语言模型",
+      "知识图谱"
     ],
     "email": "/",
     "website": "",
@@ -64,5 +63,116 @@
     "image": "",
     "profileUrl": "member.html?id=hexusong",
     "order": 3
+  },
+
+   {
+    "id": "yaojunkai",
+    "name": "姚钧恺",
+    "title": "硕士研究生",
+    "group": "ms",
+    "groupLabel": "硕士研究生",
+    "aliases": [
+      "Yao J.",
+      "J. Yao"
+    ],
+    "researchAreas": [
+      "大语言模型",
+      "知识图谱"
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "/。",
+    "image": "",
+    "profileUrl": "member.html?id=yaojunkai",
+    "order": 4
+  },
+
+
+ {
+    "id": "zhangze",
+    "name": "张泽",
+    "title": "硕士研究生",
+    "group": "ms",
+    "groupLabel": "硕士研究生",
+    "aliases": [
+      "Zhang Z.",
+      "Z. Zhang"
+    ],
+    "researchAreas": [
+      "机器人操作",
+      "机器人导航"
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "/。",
+    "image": "",
+    "profileUrl": "member.html?id=zhangze",
+    "order": 5
+  },
+
+{
+    "id": "xieyiwei",
+    "name": "谢依伟",
+    "title": "硕士研究生",
+    "group": "ms",
+    "groupLabel": "硕士研究生",
+    "aliases": [
+      "Xie Y.",
+      "Y. Xie"
+    ],
+    "researchAreas": [
+      "",
+      ""
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "/。",
+    "image": "",
+    "profileUrl": "member.html?id=xieyiwei",
+    "order": 6
+  },
+
+  {
+    "id": "yanzhijie",
+    "name": "鄢智杰",
+    "title": "硕士研究生",
+    "group": "ms",
+    "groupLabel": "硕士研究生",
+    "aliases": [
+      "Yan Z.",
+      "Z. Yan"
+    ],
+    "researchAreas": [
+      "具身智能",
+      "移动机器人导航与操作"
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "/。",
+    "image": "",
+    "profileUrl": "member.html?id=yanzhijie",
+    "order": 7
+  }
+
+  {
+    "id": "limingrui",
+    "name": "李明睿",
+    "title": "硕士研究生",
+    "group": "ms",
+    "groupLabel": "硕士研究生",
+    "aliases": [
+      "Li M.",
+      "M. Li"
+    ],
+    "researchAreas": [
+      "大语言模型",
+      "知识图谱"
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "/。",
+    "image": "",
+    "profileUrl": "member.html?id=limingrui",
+    "order": 8
   }
 ]
