@@ -136,9 +136,9 @@
   {
     "id": "yanzhijie",
     "name": "鄢智杰",
-    "title": "硕士研究生",
+    "title": "硕士研究生（已毕业）",
     "group": "ms",
-    "groupLabel": "硕士研究生",
+    "groupLabel": "硕士研究生（已毕业）",
     "aliases": [
       "Yan Z.",
       "Z. Yan"
@@ -154,7 +154,7 @@
     "profileUrl": "member.html?id=yanzhijie",
     "order": 7,
     "enrollmentYear": 2023,
-    "graduationYear": null
+    "graduationYear": 2026
   },
   {
     "id": "limingrui",
