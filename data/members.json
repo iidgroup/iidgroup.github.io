@@ -202,5 +202,33 @@
     "order": 8,
     "enrollmentYear": 2022,
     "graduationYear": 2025
+  },
+
+{
+    "id": "yilidusi",
+    "name": "伊力杜斯·伊力哈木",
+    "title": "研究助理",
+    "group": "researchAssistant",
+    "groupLabel": "研究助理",
+    "aliases": [
+      "Yi L.",
+      "L. Yi"
+    ],
+    "researchAreas": [
+      "",
+      ""
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "",
+    "image": "",
+    "profileUrl": "member.html?id=yilidusi",
+    "order": 8,
+    "enrollmentYear": null,
+    "graduationYear": null
   }
+
+
+
+
 ]

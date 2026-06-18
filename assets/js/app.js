@@ -32,6 +32,30 @@ export function isStudentMember(member = {}) {
   return ["phd", "master", "ms", "undergraduate"].includes(String(member.group || "").toLowerCase());
 }
 
+export function isResearchAssistantMember(member = {}) {
+  return ["researchassistant", "research_assistant", "assistant", "ra"].includes(String(member.group || "").toLowerCase());
+}
+
+export function getMemberGroupLabel(member = {}) {
+  if (member.groupLabel && String(member.groupLabel).trim()) return String(member.groupLabel);
+  const group = String(member.group || "").toLowerCase();
+  const labels = {
+    faculty: "导师 / 教师",
+    researcher: "研究员",
+    postdoc: "博士后",
+    researchassistant: "研究助理",
+    research_assistant: "研究助理",
+    assistant: "研究助理",
+    ra: "研究助理",
+    phd: "博士研究生",
+    master: "硕士研究生",
+    ms: "硕士研究生",
+    undergraduate: "本科生",
+    alumni: "已毕业成员",
+  };
+  return labels[group] || member.group || "成员";
+}
+
 export function getMemberStudyYears(member = {}) {
   const enrollmentYear = Number(member.enrollmentYear ?? member.startYear ?? member.admissionYear);
   const graduationYear = Number(member.graduationYear ?? member.endYear ?? member.graduateYear);
@@ -117,10 +141,14 @@ export function groupMembers(members) {
     faculty: 0,
     researcher: 1,
     postdoc: 2,
-    phd: 3,
-    master: 4,
-    undergraduate: 5,
-    alumni: 6,
+    researchassistant: 3,
+    research_assistant: 3,
+    assistant: 3,
+    ra: 3,
+    phd: 4,
+    master: 5,
+    undergraduate: 6,
+    alumni: 7,
   };
   const grouped = new Map();
   for (const member of members) {

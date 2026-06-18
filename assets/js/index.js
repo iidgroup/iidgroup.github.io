@@ -9,9 +9,11 @@ import {
   formatDate,
   formatMemberStudyLabel,
   getImageSrc,
+  getMemberGroupLabel,
   getMemberStudyStatus,
   loadJSON,
   isStudentMember,
+  isResearchAssistantMember,
   setPageTitle,
   sortByDateDesc,
   sortByYearDesc,
@@ -261,6 +263,7 @@ function renderMemberGroups(members) {
   if (!members.length) return createEmptyState("暂无团队成员数据");
 
   const faculty = members.filter((member) => String(member.group || "").toLowerCase() === "faculty");
+  const assistants = members.filter((member) => isResearchAssistantMember(member));
   const students = members.filter((member) => isStudentMember(member));
   const currentStudents = sortStudentsByYear(
     students.filter((member) => !getMemberStudyStatus(member).graduationYear),
@@ -304,6 +307,31 @@ function renderGroupedList(title, subtitle, content, anchor) {
       </div>
       ${content}
     </section>
+  `;
+}
+
+function renderMemberGroupsV2(members) {
+  if (!members.length) return createEmptyState("暂无团队成员数据");
+
+  const faculty = members.filter((member) => String(member.group || "").toLowerCase() === "faculty");
+  const assistants = members.filter((member) => isResearchAssistantMember(member));
+  const students = members.filter((member) => isStudentMember(member));
+  const currentStudents = sortStudentsByYear(
+    students.filter((member) => !getMemberStudyStatus(member).graduationYear),
+    "current",
+  );
+  const alumniStudents = sortStudentsByYear(
+    students.filter((member) => Boolean(getMemberStudyStatus(member).graduationYear)),
+    "alumni",
+  );
+
+  return `
+    <div class="member-sections">
+      ${renderMemberSection("导师 / 教师", "FACULTY", faculty, "暂无导师 / 教师数据")}
+      ${renderMemberSection("研究助理", "RESEARCH ASSISTANTS", assistants, "暂无研究助理数据")}
+      ${renderMemberSection("在读学生", "CURRENT STUDENTS", currentStudents, "暂无在读学生数据")}
+      ${renderMemberSection("已毕业学生", "ALUMNI", alumniStudents, "暂无已毕业学生数据")}
+    </div>
   `;
 }
 
@@ -368,7 +396,7 @@ async function initHome() {
     `, "research")}
 
     ${renderGroupedList("团队成员", "TEAM", `
-      ${renderMemberGroups(members)}
+      ${renderMemberGroupsV2(members)}
     `, "members")}
 
     ${renderGroupedList("项目介绍", "PROJECTS", `
