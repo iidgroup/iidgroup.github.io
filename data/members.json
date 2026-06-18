@@ -64,7 +64,45 @@
     "image": "",
     "profileUrl": "member.html?id=hexusong",
     "order": 3,
-    "enrollmentYear": null,
+    "enrollmentYear": 2025,
+    "graduationYear": null
+  },
+  {
+    "id": "wangtianyi",
+    "name": "王天怡",
+    "title": "博士研究生",
+    "group": "phd",
+    "groupLabel": "博士研究生",
+    "aliases": [
+      "Wang T.",
+      "T. Wang"
+    ],
+    "researchAreas": [
+      "三维CAD生成",
+      "飞机工装设计"
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "",
+    "image": "",
+    "profileUrl": "member.html?id=wangtianyi",
+    "order": 4,
+    "enrollmentYear": 2026,
+    "graduationYear": null
+  },
+      "X. He"
+    ],
+    "researchAreas": [
+      "大语言模型",
+      "知识图谱"
+    ],
+    "email": "/",
+    "website": "",
+    "bio": "研究方向为大语言模型与知识图谱。",
+    "image": "",
+    "profileUrl": "member.html?id=hexusong",
+    "order": 3,
+    "enrollmentYear": 2025,
     "graduationYear": null
   },
   {
@@ -110,7 +148,7 @@
     "image": "",
     "profileUrl": "member.html?id=zhangze",
     "order": 5,
-    "enrollmentYear": null,
+    "enrollmentYear": 2025,
     "graduationYear": null
   },
   {
@@ -130,7 +168,7 @@
     "image": "",
     "profileUrl": "member.html?id=xieyiwei",
     "order": 6,
-    "enrollmentYear": null,
+    "enrollmentYear": 2026,
     "graduationYear": null
   },
   {
