@@ -90,21 +90,7 @@
     "enrollmentYear": 2026,
     "graduationYear": null
   },
-      "X. He"
-    ],
-    "researchAreas": [
-      "大语言模型",
-      "知识图谱"
-    ],
-    "email": "/",
-    "website": "",
-    "bio": "研究方向为大语言模型与知识图谱。",
-    "image": "",
-    "profileUrl": "member.html?id=hexusong",
-    "order": 3,
-    "enrollmentYear": 2025,
-    "graduationYear": null
-  },
+
   {
     "id": "yaojunkai",
     "name": "姚俊凯",
