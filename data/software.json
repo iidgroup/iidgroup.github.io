@@ -1,14 +1,14 @@
 [
   {
-    "id": "soft-2026-01",
-    "title": "科研主页自动统计与展示系统",
-    "registrationNumber": "2026SR0000001",
+    "id": "/",
+    "title": "/",
+    "registrationNumber": "/",
     "status": "registered",
     "statusLabel": "已登记",
     "year": 2026,
-    "category": "Web 应用",
-    "owner": "智能信息与数据课题组",
-    "summary": "用于统一管理课题组主页的数据源、统计指标和内容展示。",
+    "category": "/",
+    "owner": "/",
+    "summary": "/",
     "link": ""
   }
 

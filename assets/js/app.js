@@ -28,6 +28,54 @@ export async function loadJSON(relativePath) {
   return response.json();
 }
 
+export function isStudentMember(member = {}) {
+  return ["phd", "master", "ms", "undergraduate"].includes(String(member.group || "").toLowerCase());
+}
+
+export function getMemberStudyYears(member = {}) {
+  const enrollmentYear = Number(member.enrollmentYear ?? member.startYear ?? member.admissionYear);
+  const graduationYear = Number(member.graduationYear ?? member.endYear ?? member.graduateYear);
+
+  return {
+    enrollmentYear: Number.isFinite(enrollmentYear) ? enrollmentYear : null,
+    graduationYear: Number.isFinite(graduationYear) ? graduationYear : null,
+  };
+}
+
+export function formatMemberStudyLabel(member = {}) {
+  const { enrollmentYear, graduationYear } = getMemberStudyYears(member);
+  if (enrollmentYear && graduationYear) return `${enrollmentYear} - ${graduationYear}`;
+  if (enrollmentYear) return `${enrollmentYear} 入学`;
+  if (graduationYear) return `${graduationYear} 毕业`;
+  return "";
+}
+
+export function getMemberStudyStatus(member = {}) {
+  const { enrollmentYear, graduationYear } = getMemberStudyYears(member);
+  if (graduationYear) {
+    return {
+      status: "alumni",
+      label: "已毕业",
+      enrollmentYear,
+      graduationYear,
+    };
+  }
+  if (isStudentMember(member)) {
+    return {
+      status: "current",
+      label: "在读",
+      enrollmentYear,
+      graduationYear,
+    };
+  }
+  return {
+    status: "other",
+    label: "",
+    enrollmentYear,
+    graduationYear,
+  };
+}
+
 export function escapeHTML(value = "") {
   return String(value)
     .replaceAll("&", "&amp;")

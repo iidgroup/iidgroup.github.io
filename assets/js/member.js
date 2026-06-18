@@ -5,12 +5,15 @@ import {
   createEmptyState,
   createFooter,
   createHeader,
+  formatMemberStudyLabel,
+  getMemberStudyStatus,
+  isStudentMember,
   loadJSON,
   setImageFallback,
   setPageTitle,
+  sortByYearDesc,
   textOrDash,
   toSentenceList,
-  sortByYearDesc,
 } from "./app.js";
 
 function getParam(name) {
@@ -18,11 +21,15 @@ function getParam(name) {
 }
 
 function memberDetail(member) {
+  const study = getMemberStudyStatus(member);
+  const studyLabel = formatMemberStudyLabel(member);
+
   return `
     <section class="panel detail-grid">
       <div class="detail-visual">
         <div class="detail-badges">
           ${badge(member.groupLabel || member.group || "成员", "blue")}
+          ${study.label ? badge(study.label, study.status === "alumni" ? "neutral" : "success") : ""}
           ${member.status ? badge(member.status, "neutral") : ""}
         </div>
       </div>
@@ -36,6 +43,10 @@ function memberDetail(member) {
           <div><span>邮箱</span><strong>${textOrDash(member.email)}</strong></div>
           <div><span>主页</span><strong>${textOrDash(member.website)}</strong></div>
           <div><span>研究方向</span><strong>${textOrDash(member.researchFocus)}</strong></div>
+          ${isStudentMember(member) ? `<div><span>入学年份</span><strong>${textOrDash(study.enrollmentYear)}</strong></div>` : ""}
+          ${isStudentMember(member) ? `<div><span>毕业年份</span><strong>${textOrDash(study.graduationYear)}</strong></div>` : ""}
+          ${isStudentMember(member) ? `<div><span>学业状态</span><strong>${textOrDash(study.label || "在读")}</strong></div>` : ""}
+          ${!isStudentMember(member) && studyLabel ? `<div><span>成员年份</span><strong>${textOrDash(studyLabel)}</strong></div>` : ""}
         </div>
         <div class="card-actions">
           ${member.email ? buttonHTML(`mailto:${member.email}`, "发送邮件", "btn btn-primary") : ""}
@@ -94,7 +105,9 @@ async function initMemberPage() {
       ${
         relatedPublications.length
           ? `<div class="card-stack">
-              ${relatedPublications.map((pub) => `
+              ${relatedPublications
+                .map(
+                  (pub) => `
                 <article class="card publication-card">
                   <div class="publication-year">${pub.year || "N/A"}</div>
                   <div class="card-body">
@@ -107,9 +120,11 @@ async function initMemberPage() {
                     </div>
                   </div>
                 </article>
-              `).join("")}
+              `,
+                )
+                .join("")}
             </div>`
-          : createEmptyState("该成员暂无关联论文示例数据")
+          : createEmptyState("该成员暂无相关论文示例数据")
       }
     </section>
 
@@ -123,14 +138,18 @@ async function initMemberPage() {
       ${
         peers.length
           ? `<div class="card-grid member-grid">
-              ${peers.map((peer) => `
+              ${peers
+                .map(
+                  (peer) => `
                 <article class="card member-card compact">
                   <div class="card-body">
                     <h3 class="card-title"><a href="${peer.profileUrl || `member.html?id=${peer.id}`}">${peer.name}</a></h3>
                     <div class="card-subtitle">${textOrDash(peer.title)}</div>
                   </div>
                 </article>
-              `).join("")}
+              `,
+                )
+                .join("")}
             </div>`
           : createEmptyState("暂无同组成员数据")
       }

@@ -7,8 +7,11 @@ import {
   createFooter,
   createHeader,
   formatDate,
+  formatMemberStudyLabel,
   getImageSrc,
+  getMemberStudyStatus,
   loadJSON,
+  isStudentMember,
   setPageTitle,
   sortByDateDesc,
   sortByYearDesc,
@@ -18,6 +21,14 @@ import {
 
 function memberCard(member, compact = false) {
   const url = member.profileUrl || `member.html?id=${encodeURIComponent(member.id)}`;
+  const study = getMemberStudyStatus(member);
+  const studyLabel = formatMemberStudyLabel(member);
+  const studyBadge =
+    study.status === "alumni"
+      ? badge("已毕业", "neutral")
+      : study.status === "current"
+        ? badge("在读", "success")
+        : "";
   return `
     <article class="card member-card ${compact ? "compact" : ""}">
       <div class="card-body">
@@ -25,7 +36,9 @@ function memberCard(member, compact = false) {
           <div>
             <h3 class="card-title"><a href="${url}">${member.name}</a></h3>
             <div class="card-subtitle">${textOrDash(member.title)}</div>
+            ${isStudentMember(member) ? `<div class="member-year">${textOrDash(studyLabel || "年份待补充")}</div>` : ""}
           </div>
+          ${studyBadge}
         </div>
         <p class="card-text">${textOrDash(member.bio)}</p>
         ${chipList(member.researchAreas || [])}
@@ -73,6 +86,37 @@ function projectCard(project) {
         </div>
       </div>
     </article>
+  `;
+}
+
+function sortStudentsByYear(items, direction = "current") {
+  return [...items].sort((a, b) => {
+    const left = getMemberStudyStatus(a);
+    const right = getMemberStudyStatus(b);
+    const leftYear = direction === "alumni" ? left.graduationYear ?? 0 : left.enrollmentYear ?? 0;
+    const rightYear = direction === "alumni" ? right.graduationYear ?? 0 : right.enrollmentYear ?? 0;
+    if (rightYear !== leftYear) return rightYear - leftYear;
+    return (a.order ?? 999) - (b.order ?? 999);
+  });
+}
+
+function renderMemberSection(title, subtitle, members, emptyMessage) {
+  return `
+    <div class="member-section">
+      <div class="section-header">
+        <div>
+          <div class="section-kicker">${subtitle}</div>
+          <h3>${title}</h3>
+        </div>
+      </div>
+      ${
+        members.length
+          ? `<div class="card-grid member-grid">
+              ${members.map((member) => memberCard(member)).join("")}
+            </div>`
+          : createEmptyState(emptyMessage)
+      }
+    </div>
   `;
 }
 
@@ -216,11 +260,22 @@ function newsCard(item) {
 function renderMemberGroups(members) {
   if (!members.length) return createEmptyState("暂无团队成员数据");
 
-  const sortedMembers = [...members].sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+  const faculty = members.filter((member) => String(member.group || "").toLowerCase() === "faculty");
+  const students = members.filter((member) => isStudentMember(member));
+  const currentStudents = sortStudentsByYear(
+    students.filter((member) => !getMemberStudyStatus(member).graduationYear),
+    "current",
+  );
+  const alumniStudents = sortStudentsByYear(
+    students.filter((member) => Boolean(getMemberStudyStatus(member).graduationYear)),
+    "alumni",
+  );
 
   return `
-    <div class="card-grid member-grid">
-      ${sortedMembers.map((member) => memberCard(member)).join("")}
+    <div class="member-sections">
+      ${renderMemberSection("导师 / 教师", "FACULTY", faculty, "暂无导师 / 教师数据")}
+      ${renderMemberSection("在读学生", "CURRENT STUDENTS", currentStudents, "暂无在读学生数据")}
+      ${renderMemberSection("已毕业学生", "ALUMNI", alumniStudents, "暂无已毕业学生数据")}
     </div>
   `;
 }

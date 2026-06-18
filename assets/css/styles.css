@@ -386,6 +386,23 @@ main {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.member-sections {
+  display: grid;
+  gap: 20px;
+}
+
+.member-section h3 {
+  margin: 6px 0 0;
+  font-size: 1.18rem;
+}
+
+.member-year {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
 .research-grid {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }

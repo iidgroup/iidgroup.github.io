@@ -24,7 +24,7 @@
   {
     "id": "liangxinxin",
     "name": "梁欣欣",
-    "title": "博士生",
+    "title": "博士研究生",
     "group": "phd",
     "groupLabel": "博士研究生",
     "aliases": [
@@ -37,12 +37,13 @@
     ],
     "email": "liangxinxin1999@buaa.edu.cn",
     "website": "",
-    "bio": "/。",
+    "bio": "研究方向为基于MBD模型的LLM-KG协同机械零件设计方法。",
     "image": "",
     "profileUrl": "member.html?id=liangxinxin",
-    "order": 2
+    "order": 2,
+    "enrollmentYear": 2024,
+    "graduationYear": null
   },
- 
   {
     "id": "hexusong",
     "name": "贺旭松",
@@ -59,15 +60,16 @@
     ],
     "email": "/",
     "website": "",
-    "bio": "/。",
+    "bio": "研究方向为大语言模型与知识图谱。",
     "image": "",
     "profileUrl": "member.html?id=hexusong",
-    "order": 3
+    "order": 3,
+    "enrollmentYear": null,
+    "graduationYear": null
   },
-
-   {
+  {
     "id": "yaojunkai",
-    "name": "姚钧恺",
+    "name": "姚俊凯",
     "title": "硕士研究生",
     "group": "ms",
     "groupLabel": "硕士研究生",
@@ -76,19 +78,19 @@
       "J. Yao"
     ],
     "researchAreas": [
-      "大语言模型",
+      "制造工艺规划",
       "知识图谱"
     ],
     "email": "/",
     "website": "",
-    "bio": "/。",
+    "bio": "研究方向为基于模型定义文档和知识图谱的制造工艺规划。",
     "image": "",
     "profileUrl": "member.html?id=yaojunkai",
-    "order": 4
+    "order": 4,
+    "enrollmentYear": 2024,
+    "graduationYear": null
   },
-
-
- {
+  {
     "id": "zhangze",
     "name": "张泽",
     "title": "硕士研究生",
@@ -100,17 +102,18 @@
     ],
     "researchAreas": [
       "机器人操作",
-      "机器人导航"
+      "移动机器人导航"
     ],
     "email": "/",
     "website": "",
-    "bio": "/。",
+    "bio": "研究方向为机器人操作与导航。",
     "image": "",
     "profileUrl": "member.html?id=zhangze",
-    "order": 5
+    "order": 5,
+    "enrollmentYear": null,
+    "graduationYear": null
   },
-
-{
+  {
     "id": "xieyiwei",
     "name": "谢依伟",
     "title": "硕士研究生",
@@ -120,18 +123,16 @@
       "Xie Y.",
       "Y. Xie"
     ],
-    "researchAreas": [
-      "",
-      ""
-    ],
+    "researchAreas": [],
     "email": "/",
     "website": "",
-    "bio": "/。",
+    "bio": "研究方向待补充。",
     "image": "",
     "profileUrl": "member.html?id=xieyiwei",
-    "order": 6
+    "order": 6,
+    "enrollmentYear": null,
+    "graduationYear": null
   },
-
   {
     "id": "yanzhijie",
     "name": "鄢智杰",
@@ -148,18 +149,19 @@
     ],
     "email": "/",
     "website": "",
-    "bio": "/。",
+    "bio": "研究方向为基于大语言模型的制造场景图生成和人机协作视觉推理方法。",
     "image": "",
     "profileUrl": "member.html?id=yanzhijie",
-    "order": 7
+    "order": 7,
+    "enrollmentYear": 2023,
+    "graduationYear": null
   },
-
   {
     "id": "limingrui",
     "name": "李明睿",
-    "title": "硕士研究生",
+    "title": "硕士研究生（已毕业）",
     "group": "ms",
-    "groupLabel": "硕士研究生",
+    "groupLabel": "硕士研究生（已毕业）",
     "aliases": [
       "Li M.",
       "M. Li"
@@ -170,9 +172,11 @@
     ],
     "email": "/",
     "website": "",
-    "bio": "/。",
+    "bio": "研究方向为基于EEG和眼动数据的复杂产品设计知识推荐。现就读于香港理工大学博士研究生。",
     "image": "",
     "profileUrl": "member.html?id=limingrui",
-    "order": 8
+    "order": 8,
+    "enrollmentYear": 2022,
+    "graduationYear": 2025
   }
 ]
