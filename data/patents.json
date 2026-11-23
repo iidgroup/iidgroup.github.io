@@ -1,12 +1,44 @@
 [
   {
+    "id": "pat-cn116894087a",
+    "title": "一种融合Doc2vec和GAT的专利跨领域推荐方法及系统",
+    "number": "CN116894087B",
+    "status": "authorized",
+    "statusLabel": "授权",
+    "year": 2026,
+    "applicationYear": 2023,
+    "authorizationYear": 2026,
+    "inventors": [
+      "王佐旭",
+      "李明睿"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn122242684a",
+    "title": "工业爆炸图知识图谱构建方法和装置、系统、存储介质",
+    "number": "CN122242684A",
+    "status": "pending",
+    "statusLabel": "已公开",
+    "year": 2026,
+    "applicationYear": 2026,
+    "authorizationYear": null,
+    "inventors": [
+      "王佐旭",
+      "梁欣欣"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
     "id": "pat-cn121392822a",
     "title": "一种基于多任务图神经网络融合点云-属性邻接图信息的加工特征识别方法及系统",
     "number": "CN121392822A",
     "status": "pending",
-    "statusLabel": "受理中",
+    "statusLabel": "已公开",
     "year": 2026,
-    "applicationYear": 2026,
+    "applicationYear": 2025,
     "authorizationYear": null,
     "inventors": [
       "王佐旭",
@@ -16,11 +48,92 @@
     "link": ""
   },
   {
+    "id": "pat-cn122241918a",
+    "title": "参数化设计生成与一致性校核方法和装置、存储介质",
+    "number": "CN122241918A",
+    "status": "pending",
+    "statusLabel": "已公开",
+    "year": 2026,
+    "applicationYear": 2026,
+    "authorizationYear": null,
+    "inventors": [
+      "王佐旭",
+      "梁欣欣"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn122389124a",
+    "title": "一种面向AI辅助CAD修改的推进判断支持方法和装置",
+    "number": "CN122389124A",
+    "status": "pending",
+    "statusLabel": "已公开",
+    "year": 2026,
+    "applicationYear": 2026,
+    "authorizationYear": null,
+    "inventors": [
+      "王佐旭",
+      "梁欣欣"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn122250930a",
+    "title": "认知状态识别方法和装置、系统、存储介质",
+    "number": "CN122250930A",
+    "status": "pending",
+    "statusLabel": "已公开",
+    "year": 2026,
+    "applicationYear": 2026,
+    "authorizationYear": null,
+    "inventors": [
+      "王佐旭",
+      "谢熙卓"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn118537705b",
+    "title": "一种使用多模态模型进行齿轮图像精准识别的方法及系统",
+    "number": "CN118537705B",
+    "status": "authorized",
+    "statusLabel": "授权",
+    "year": 2025,
+    "applicationYear": 2024,
+    "authorizationYear": 2025,
+    "inventors": [
+      "王佐旭",
+      "梁欣欣"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
+    "id": "pat-cn120337556a",
+    "title": "一种面向产品CAD模型的代理模型自动构建方法",
+    "number": "CN120337556A",
+    "status": "pending",
+    "statusLabel": "已公开",
+    "year": 2025,
+    "applicationYear": 2025,
+    "authorizationYear": null,
+    "inventors": [
+      "刘继红",
+      "谢艳玲",
+      "王佐旭"
+    ],
+    "summary": "",
+    "link": ""
+  },
+  {
     "id": "pat-cn121210533a",
     "title": "一种基于模型特征识别的工艺推送方法",
     "number": "CN121210533A",
     "status": "pending",
-    "statusLabel": "受理中",
+    "statusLabel": "已公开",
     "year": 2025,
     "applicationYear": 2025,
     "authorizationYear": null,
@@ -41,40 +154,7 @@
     "status": "authorized",
     "statusLabel": "授权",
     "year": 2025,
-    "applicationYear": null,
-    "authorizationYear": 2025,
-    "inventors": [
-      "王佐旭",
-      "梁欣欣"
-    ],
-    "summary": "",
-    "link": ""
-  },
-  {
-    "id": "pat-cn120337556a",
-    "title": "一种面向产品CAD模型的代理模型自动构建方法",
-    "number": "CN120337556A",
-    "status": "pending",
-    "statusLabel": "受理中",
-    "year": 2025,
-    "applicationYear": 2025,
-    "authorizationYear": null,
-    "inventors": [
-      "刘继红",
-      "谢艳玲",
-      "王佐旭"
-    ],
-    "summary": "",
-    "link": ""
-  },
-  {
-    "id": "pat-cn118537705b",
-    "title": "一种使用多模态模型进行齿轮图像精准识别的方法及系统",
-    "number": "CN118537705B",
-    "status": "authorized",
-    "statusLabel": "授权",
-    "year": 2025,
-    "applicationYear": null,
+    "applicationYear": 2024,
     "authorizationYear": 2025,
     "inventors": [
       "王佐旭",
@@ -88,29 +168,13 @@
     "title": "一种多模态知识图谱自动化生成方法及系统",
     "number": "CN118446290A",
     "status": "pending",
-    "statusLabel": "受理中",
+    "statusLabel": "已公开",
     "year": 2024,
     "applicationYear": 2024,
     "authorizationYear": null,
     "inventors": [
       "王佐旭",
       "鄢智杰"
-    ],
-    "summary": "",
-    "link": ""
-  },
-  {
-    "id": "pat-cn116894087a",
-    "title": "一种融合Doc2vec和GAT的专利跨领域推荐方法及系统",
-    "number": "CN116894087A",
-    "status": "pending",
-    "statusLabel": "受理中",
-    "year": 2023,
-    "applicationYear": 2023,
-    "authorizationYear": null,
-    "inventors": [
-      "王佐旭",
-      "李明睿"
     ],
     "summary": "",
     "link": ""

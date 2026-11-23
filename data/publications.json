@@ -740,5 +740,404 @@
     "doi": "10.3233/978-1-61499-898-3-478",
     "link": "https://doi.org/10.3233/978-1-61499-898-3-478",
     "type": "conferencePaper"
+  },
+  {
+    "id": "bib-wang2021graph",
+    "title": "A graph-based context-aware requirement elicitation approach in smart product-service systems",
+    "authors": [
+      "Zuoxu Wang",
+      "Chun-Hsien Chen",
+      "Pai Zheng",
+      "Xinyu Li",
+      "Li Pheng Khoo"
+    ],
+    "journal": "International Journal of Production Research",
+    "volume": "59",
+    "issue": "2",
+    "pages": "635-651",
+    "year": 2021,
+    "doi": "10.1080/00207543.2019.1702227",
+    "link": "https://doi.org/10.1080/00207543.2019.1702227",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-li2020closed",
+    "title": "A closed-loop context-aware framework for sustainable smart PSS development",
+    "authors": [
+      "Xinyu Li",
+      "Zuoxu Wang",
+      "Pai Zheng",
+      "Tao Peng",
+      "Chun-Hsien Chen"
+    ],
+    "journal": "2020 IEEE 16th International Conference on Automation Science and Engineering (CASE)",
+    "volume": "",
+    "issue": "",
+    "pages": "311-316",
+    "year": 2020,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "bib-zhang2023hybrid",
+    "title": "Hybrid sensing-based approach for the monitoring and maintenance of shared manufacturing resources",
+    "authors": [
+      "Geng Zhang",
+      "Chun-Hsien Chen",
+      "Bufan Liu",
+      "Xinyu Li",
+      "Zuoxu Wang"
+    ],
+    "journal": "International Journal of Production Research",
+    "volume": "61",
+    "issue": "12",
+    "pages": "3849-3867",
+    "year": 2023,
+    "doi": "",
+    "link": "",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-li2023proactive",
+    "title": "Proactive human-robot collaboration: Mutual-cognitive, predictable, and self-organising perspectives",
+    "authors": [
+      "Shufei Li",
+      "Pai Zheng",
+      "Sichao Liu",
+      "Zuoxu Wang",
+      "Xi Vincent Wang",
+      "Lianyu Zheng",
+      "Lihui Wang"
+    ],
+    "journal": "Robotics and Computer-Integrated Manufacturing",
+    "volume": "81",
+    "issue": "",
+    "pages": "102510",
+    "year": 2023,
+    "doi": "",
+    "link": "",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-li2023exploiting",
+    "title": "Exploiting patent documents for cross-domain knowledge transfer in innovative engineering design: A Doc2Vec-GAT-based approach",
+    "authors": [
+      "Mingrui Li",
+      "Zuoxu Wang",
+      "Zhijie Yan",
+      "Jihong Liu"
+    ],
+    "journal": "2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)",
+    "volume": "",
+    "issue": "",
+    "pages": "1-6",
+    "year": 2023,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "bib-hua2025knowledge",
+    "title": "Knowledge graph with deep reinforcement learning for intelligent generation of machining process design",
+    "authors": [
+      "Yiwei Hua",
+      "Ru Wang",
+      "Zuoxu Wang",
+      "Guoxin Wang",
+      "Yan Yan"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "36",
+    "issue": "11",
+    "pages": "2072-2106",
+    "year": 2025,
+    "doi": "",
+    "link": "",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-li2024unveiling",
+    "title": "Unveiling Designers' Cognitive States in Early Engineering Design Stages: An Autoencoder-DNN Approach based on EEG Data",
+    "authors": [
+      "Mingrui Li",
+      "Zuoxu Wang",
+      "Fan Li",
+      "Jihong Liu"
+    ],
+    "journal": "2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)",
+    "volume": "",
+    "issue": "",
+    "pages": "1361-1366",
+    "year": 2024,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "bib-yan2024manufvissgg",
+    "title": "ManufVisSGG: A vision-language-model approach for cognitive scene graph generation in manufacturing systems",
+    "authors": [
+      "Zhijie Yan",
+      "Zuoxu Wang",
+      "Shufei Li",
+      "Mingrui Li",
+      "Xinxin Liang",
+      "Jihong Liu"
+    ],
+    "journal": "2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)",
+    "volume": "",
+    "issue": "",
+    "pages": "1632-1637",
+    "year": 2024,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "bib-yan2023int2",
+    "title": "Int2: Interactive trajectory prediction at intersections",
+    "authors": [
+      "Zhijie Yan",
+      "Pengfei Li",
+      "Zheng Fu",
+      "Shaocong Xu",
+      "Yongliang Shi",
+      "Xiaoxue Chen",
+      "Yuhang Zheng",
+      "Yang Li",
+      "Tianyu Liu",
+      "Chuxuan Li",
+      "et al."
+    ],
+    "journal": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "volume": "",
+    "issue": "",
+    "pages": "8502-8513",
+    "year": 2023,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "bib-trappey2026exploring",
+    "title": "Exploring advanced human-AI hybrid intelligence solutions now and beyond: a synthesis of the special issue portfolio",
+    "authors": [
+      "Amy JC Trappey",
+      "Ching-Hung Lee",
+      "Zuoxu Wang",
+      "Fan Li"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "",
+    "issue": "",
+    "pages": "1-6",
+    "year": 2026,
+    "doi": "",
+    "link": "",
+    "type": "editorial"
+  },
+  {
+    "id": "bib-wang2025advancements",
+    "title": "Advancements in knowledge graphs (KGs) for engineering design",
+    "authors": [
+      "Zuoxu Wang",
+      "Xinyu Li",
+      "Binyang Song",
+      "Ang Liu",
+      "Ying Liu",
+      "Petri Helo"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "36",
+    "issue": "7-9",
+    "pages": "1065-1068",
+    "year": 2025,
+    "doi": "",
+    "link": "",
+    "type": "editorial"
+  },
+  {
+    "id": "bib-liang2025scene",
+    "title": "Scene Graph-Guided Rapid Construction of Industrial Multimodal Knowledge Graphs",
+    "authors": [
+      "Xinxin Liang",
+      "Zuoxu Wang",
+      "Mingrui Li",
+      "Junkai Yao",
+      "Jihong Liu"
+    ],
+    "journal": "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+    "volume": "89206",
+    "issue": "",
+    "pages": "V02AT02A052",
+    "year": 2025,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "bib-li2024large",
+    "title": "Large language model for humanoid cognition in proactive human-robot collaboration",
+    "authors": [
+      "Shufei Li",
+      "Zuoxu Wang",
+      "Zhijie Yan",
+      "Yiping Gao",
+      "Han Jiang",
+      "Pai Zheng"
+    ],
+    "journal": "2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)",
+    "volume": "",
+    "issue": "",
+    "pages": "540-545",
+    "year": 2024,
+    "doi": "",
+    "link": "",
+    "type": "conferencePaper"
+  },
+  {
+    "id": "bib-wang2026towards",
+    "title": "Towards a cognitive product design and manufacturing system: enhancing industrial information integration with KG and/or LLM",
+    "authors": [
+      "Zuoxu Wang",
+      "Xinyu Li",
+      "Ru Wang",
+      "Xingyu Li",
+      "Ang Liu",
+      "Ying Liu"
+    ],
+    "journal": "Advanced Engineering Informatics",
+    "volume": "69",
+    "issue": "Part A",
+    "pages": "103902",
+    "year": 2026,
+    "doi": "10.1016/j.aei.2025.103902",
+    "link": "https://doi.org/10.1016/j.aei.2025.103902",
+    "type": "editorial"
+  },
+  {
+    "id": "bib-li2026toward",
+    "title": "Toward Shared Situational Awareness in Human-AI Hybrid Intelligence: A Survey in High-Risk Aviation Environments",
+    "authors": [
+      "Donglin Li",
+      "Mingrui Li",
+      "Zuoxu Wang",
+      "Fan Li"
+    ],
+    "journal": "Reliability Engineering & System Safety",
+    "volume": "",
+    "issue": "",
+    "pages": "112363",
+    "year": 2026,
+    "doi": "",
+    "link": "",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-li5434094advancing",
+    "title": "Advancing cognitive intelligence in complex product design: Method and system for design intention-driven knowledge recommendation",
+    "authors": [
+      "Mingrui Li",
+      "Zuoxu Wang",
+      "Fan Li",
+      "Jihong Liu",
+      "Chun-Hsien Chen"
+    ],
+    "journal": "SSRN",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": 2025,
+    "doi": "10.2139/ssrn.5434094",
+    "link": "https://doi.org/10.2139/ssrn.5434094",
+    "type": "preprint"
+  },
+  {
+    "id": "bib-zuoxu2025product",
+    "title": "A Product Patent Knowledge Mining and Recommendation Method Based on Few-Shot Feature Extraction and Cross-Citation Network",
+    "authors": [
+      "Zuoxu Wang",
+      "Mingrui Li",
+      "Muye Zhang",
+      "Jihong Liu"
+    ],
+    "journal": "Journal of Mechanical Engineering",
+    "volume": "62",
+    "issue": "3",
+    "pages": "492-504",
+    "year": 2026,
+    "doi": "10.3901/JME.260100",
+    "link": "https://doi.org/10.3901/JME.260100",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-xie2026lightweight",
+    "title": "A lightweight EEG-based cognitive state recognition method integrating vision transformer and genetic algorithms for multi-tasking product design",
+    "authors": [
+      "Xizhuo Xie",
+      "Zuoxu Wang",
+      "Huiyu Li",
+      "Mingrui Li"
+    ],
+    "journal": "Journal of Engineering Design",
+    "volume": "",
+    "issue": "",
+    "pages": "1-29",
+    "year": 2026,
+    "doi": "",
+    "link": "",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-zuoxugraph",
+    "title": "A GRAPH-BASED METHODOLOGY FOR CONTEXT-AWARE SMART PRODUCT-SERVICE SYSTEM CONCEPT DEVELOPMENT",
+    "authors": [
+      "Zuoxu Wang"
+    ],
+    "journal": "Nanyang Technological University",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": 2021,
+    "doi": "",
+    "link": "https://www.me.buaa.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=9237&wbtreeid=1071",
+    "type": "thesis"
+  },
+  {
+    "id": "bib-zhang2026lightweight",
+    "title": "Lightweight Drift-Resistant Indoor Localization with Short-Term LIO Odometry and Long-Term RGB-D Factor-Graph Consistency",
+    "authors": [
+      "Ze Zhang",
+      "Zhijie Yan",
+      "Shufei Li",
+      "Zuoxu Wang"
+    ],
+    "journal": "Procedia CIRP",
+    "volume": "147",
+    "issue": "",
+    "pages": "624-629",
+    "year": 2026,
+    "doi": "",
+    "link": "",
+    "type": "journalArticle"
+  },
+  {
+    "id": "bib-yao2026novel",
+    "title": "A novel point cloud and attribute adjacency graph integrated machining feature recognition approach",
+    "authors": [
+      "Junkai Yao",
+      "Xinxin Liang",
+      "Jihong Liu",
+      "Zuoxu Wang"
+    ],
+    "journal": "Procedia CIRP",
+    "volume": "147",
+    "issue": "",
+    "pages": "648-654",
+    "year": 2026,
+    "doi": "",
+    "link": "",
+    "type": "journalArticle"
   }
 ]
