@@ -71,15 +71,15 @@ function projectCard(project) {
         <div class="card-head">
           <div>
             <h3 class="card-title"><a href="${detailUrl}">${project.title}</a></h3>
-            <div class="card-subtitle">${textOrDash(project.funder)}</div>
+            ${project.funder ? `<div class="card-subtitle">${project.funder}</div>` : ""}
           </div>
           ${badge(project.statusLabel || project.status || "项目", statusType)}
         </div>
         <p class="card-text">${textOrDash(project.summary)}</p>
         <div class="meta-grid">
-          <div><span>时间</span><strong>${project.startDate ? formatDate(project.startDate) : "未填写"}</strong></div>
+          <div><span>立项日期</span><strong>${project.startDate ? formatDate(project.startDate) : "未填写"}</strong></div>
           <div><span>负责人</span><strong>${textOrDash(project.pi)}</strong></div>
-          <div><span>金额</span><strong>${textOrDash(project.amount)}</strong></div>
+          <div><span>批准经费</span><strong>${textOrDash(project.amount)}</strong></div>
         </div>
         ${chipList(project.tags || [])}
         <div class="card-actions">

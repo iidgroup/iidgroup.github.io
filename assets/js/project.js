@@ -11,7 +11,6 @@ import {
   setPageTitle,
   sortByDateDesc,
   textOrDash,
-  toSentenceList,
 } from "./app.js";
 
 function getParam(name) {
@@ -35,11 +34,13 @@ function projectDetail(project) {
         <p class="hero-lead">${textOrDash(project.summary)}</p>
         <div class="meta-grid detail-meta">
           <div><span>负责人</span><strong>${textOrDash(project.pi)}</strong></div>
-          <div><span>起始时间</span><strong>${textOrDash(project.startDate)}</strong></div>
-          <div><span>结束时间</span><strong>${textOrDash(project.endDate)}</strong></div>
-          <div><span>资助机构</span><strong>${textOrDash(project.funder)}</strong></div>
+          <div><span>立项日期</span><strong>${textOrDash(project.startDate)}</strong></div>
+          <div><span>计划完成日期</span><strong>${textOrDash(project.endDate)}</strong></div>
+          <div><span>批准经费</span><strong>${textOrDash(project.amount)}</strong></div>
+          <div><span>所属单位</span><strong>${textOrDash(project.department)}</strong></div>
+          ${project.funder ? `<div><span>资助机构</span><strong>${project.funder}</strong></div>` : ""}
         </div>
-        <p class="detail-summary">${textOrDash(project.detail)}</p>
+        ${project.detail ? `<p class="detail-summary">${project.detail}</p>` : ""}
         ${chipList(project.tags || [])}
         <div class="card-actions">
           ${project.link ? buttonHTML(project.link, "外部链接", "btn btn-primary", "_blank") : ""}
@@ -62,7 +63,10 @@ async function initProjectPage() {
   document.getElementById("site-header").innerHTML = createHeader(site, "project");
   document.getElementById("site-footer").innerHTML = createFooter(site);
 
-  const id = getParam("id");
+  const requestedId = getParam("id");
+  const id = requestedId === "project-national-youth-talent-2023-2024"
+    ? "project-national-youth-talent-2024"
+    : requestedId;
   const project = projects.find((item) => item.id === id) || projects[0];
 
   if (!project) {
