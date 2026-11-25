@@ -2,8 +2,10 @@
   {
     "id": "project-editable-3d-model-generation",
     "title": "强弱约束引导的机械产品三维***模型可编辑程序化生成方法研究",
-    "status": "planned",
     "type": "国家自然科学基金项目",
+    "funder": "国家自然科学基金项目",
+    "status": "planned",
+    
     "statusLabel": "待启动",
     "pi": "王佐旭",
     "department": "机械工程及自动化学院",
@@ -16,9 +18,10 @@
   {
     "id": "project-generative-model-assisted-design-2026",
     "title": "基于生成式预训练大模型的*结构件辅助设计技术（2026年度）",
+    "type": "中央高校基本科研业务费",
+    "funder": "中央高校基本科研业务费",
     "status": "ongoing",
     "statusLabel": "在研",
-    "type": "中央高校基本科研业务费",
     "pi": "王佐旭",
     "department": "机械工程及自动化学院",
     "amount": "30 万元",
@@ -30,9 +33,10 @@
   {
     "id": "project-tooling-design-automation",
     "title": "工装自动化设计系统开发",
+    "funder": "企业事业单位委托科技项目",
+    "type": "企事业单位委托科技项目",
     "status": "ongoing",
     "statusLabel": "在研",
-    "type": "企事业单位委托科技项目",
     "pi": "王佐旭",
     "department": "机械工程及自动化学院",
     "amount": "21.2 万元",
